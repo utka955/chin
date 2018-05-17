@@ -5,11 +5,11 @@ include("chinesedbconnect.html");
 
 
 $MyIndex1 = 0; 
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
   
  
 

@@ -4,10 +4,10 @@ $level = "all";
 include("chinesedbconnect.html");  
 $Listingno =  $_REQUEST['Listingno'];
  
-$whatphoto =  mysql_real_escape_string($_REQUEST['whatphoto']);
-$realid =  mysql_real_escape_string($_REQUEST['realid']);
+$whatphoto =  mysqli_real_escape_string($db,$_REQUEST['whatphoto']);
+$realid =  mysqli_real_escape_string($db,$_REQUEST['realid']);
  
-//$REQUEST_METHOD =  mysql_real_escape_string($_REQUEST['$REQUEST_METHOD']);
+//$REQUEST_METHOD =  mysqli_real_escape_string($db,$_REQUEST['$REQUEST_METHOD']);
 $imgfile = $_REQUEST['imgfile']; 
 $imgfile_name = $_FILES["imgfile"]["name"]; 
 $imgfile_type = $_FILES["imgfile"]["type"]; 
@@ -250,14 +250,14 @@ if ($final_filename != "")
 {
     if ($whatphoto == "mainphoto")
     {
-       mysql_query("update  listingstab SET 
+       mysqli_new_query("update  listingstab SET 
            tphoto=\"$final_filename\" 
            where tlistingno=\"$Listingno\";") or die("Update 1 failed" . mysql_error());   
     }	 
     else
         if ($whatphoto == "logo")
         {
-           mysql_query("update  listingstab SET 
+           mysqli_new_query("update  listingstab SET 
                tlogo=\"$final_filename\" 
                where tlistingno=\"$Listingno\";") or die("Update 2 failed" . mysql_error());   
         }

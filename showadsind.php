@@ -63,11 +63,11 @@ $MyIndex = 0;
 	          echo $Fname . " " . $Lname;
                   echo "<Br><b>Lawyer</b>"; 
                     echo "<p style=\"margin-top: 5px\"><b>$litpractice: </b>";
-                    $result1 = mysql_query("SELECT * FROM  practicetab
+                    $result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
  $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
  
 while ($MyIndex1 < $number1)
       

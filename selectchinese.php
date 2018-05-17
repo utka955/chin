@@ -2,7 +2,7 @@
 session_start();
 $level = "all";
 include("chinesedbconnect.html"); 
-$Listingno=mysql_real_escape_string($_REQUEST['Listingno']);
+$Listingno=mysqli_real_escape_string($db,$_REQUEST['Listingno']);
 ?>
 <html>
 
@@ -45,7 +45,7 @@ $spacer = "nbsp;";
 if ($auth == "G")
     {
         echo "<Br>Authorization Level=G";
-        $result = mysql_query("SELECT * FROM  listingstab
+        $result = mysqli_new_query("SELECT * FROM  listingstab
            where tlistingno like \"$Listingnoc\"
            and tauthcode like \"Y\" 
            order by tcreatedate DESC",$db) or die("cant read it");
@@ -53,12 +53,12 @@ if ($auth == "G")
 if ($auth == "A")
     {
         echo "<Br>Authorization Level=A";
-        $result = mysql_query("SELECT * FROM  listingstab
+        $result = mysqli_new_query("SELECT * FROM  listingstab
           where tlistingno like \"$Listingnoc\"
           order by tcreatedate DESC",$db) or die("cant read it");
     }
  $MyIndex = 0; 
- $number = mysql_numrows($result);
+ $number = mysqli_num_rows($result);
  print "<Br>num=" . $number;
  while ($MyIndex < $number)
       
@@ -100,11 +100,11 @@ echo "    <a href=updatelisting3.php?Listingno=$Listingno>EDIT 1</a>&nbsp;&nbsp;
 		   echo "</td>";
 		   echo "<Td  width=225px valign=Top>";
 		   echo "<b>Practice: </b>  <Br>";
-                        $result1 = mysql_query("SELECT * FROM  practicetab
+                        $result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
  $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
  
 while ($MyIndex1 < $number1)
       

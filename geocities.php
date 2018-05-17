@@ -33,14 +33,14 @@ $_SESSION["auth"] = $auth;
       <P>after second one</P>
      
 <?php
- mysql_query("drop table citiestab");
+ mysqli_new_query("drop table citiestab");
 
 
 
 
 
 
-mysql_query("create table citiestab( cstate varchar(50), ccity varchar(50), ccompany varchar(150), clistingno varchar(5),
+mysqli_new_query("create table citiestab( cstate varchar(50), ccity varchar(50), ccompany varchar(150), clistingno varchar(5),
  clink varchar(150), cfname varchar(50), clname varchar(50), ccountry varchar(50), cmain varchar(1),
 
 UNIQUE id(cstate, ccity, clistingno) );") 
@@ -48,9 +48,9 @@ or die("cant createx" . mysql_error());
 
 $MyIndex = 0;
 
-$result = mysql_query("SELECT * FROM  listingstab order by tcreatedate DESC",$db) or die("cant read it");
+$result = mysqli_new_query("SELECT * FROM  listingstab order by tcreatedate DESC",$db) or die("cant read it");
  $MyIndex = 0; 
-    $number = mysql_numrows($result);
+    $number = mysqli_num_rows($result);
  while ($MyIndex < $number)
       
     { 
@@ -209,7 +209,7 @@ function doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main)
   
 	     $link = "test";
 //	print "<Br>Country=". $Country . " State=" . $State . " city=" . $City  . " last=" . $Lname;   
-	     mysql_query("insert into citiestab values 
+	     mysqli_new_query("insert into citiestab values 
       ('$State',\"$City\",\"$Company\",'$Listingno','$link','$Fname','$Lname','$Country','$Main');") 
     ;   
 }

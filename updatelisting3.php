@@ -60,11 +60,11 @@ document.all.State.style.visibility = "visible";
 <?php include("chinesedbconnect.html");  ?>
 
 <?php
-$result = mysql_query("SELECT * FROM  listingstab
+$result = mysqli_new_query("SELECT * FROM  listingstab
 where tlistingno = \"$Listingno\"
 order by tcreatedate DESC",$db) or die("cant read it");
 $MyIndex = 0; 
- $number = mysql_numrows($result);
+ $number = mysqli_num_rows($result);
  
  while ($MyIndex < $number)
       

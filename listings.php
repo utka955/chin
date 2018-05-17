@@ -26,11 +26,11 @@ $parm = substr($searchparm, 1);
 }
 
 
- $result1 = mysql_query("SELECT * FROM  practicetab
+ $result1 = mysqli_new_query("SELECT * FROM  practicetab
  where pshortname = \"$parm\"
 order by RAND()",$db) or die("cant read practice table" . mysql_error());
 $MyIndex1 = 0; 
-$number1 = mysql_numrows($result1);
+$number1 = mysqli_num_rows($result1);
  
  
 while ($MyIndex1 < $number1)
@@ -207,7 +207,7 @@ $spacer = "nbsp;";
 
  
 
-$result = mysql_query("SELECT * FROM  listingstab
+$result = mysqli_new_query("SELECT * FROM  listingstab
   
 where (tstate = \"$statesh\"
 or tcountry = \"$statesh\")
@@ -242,7 +242,7 @@ exit();
 $MyIndex = 0; 
 $MyCount = 0; 
 
-$number = mysql_numrows($result);
+$number = mysqli_num_rows($result);
 	
 $num = $number - 1;
 
@@ -355,11 +355,11 @@ echo $Fname . " " . $Lname . "<br>";
 
  echo "<p style=\"margin-top: 5px\"><b>$litpractice: </b>";
 
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
  $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
  
  
 while ($MyIndex1 < $number1)

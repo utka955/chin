@@ -24,11 +24,11 @@ $parm = substr($searchparm, 1);
 }
 
 
- $result1 = mysql_query("SELECT * FROM  practicetab
+ $result1 = mysqli_new_query("SELECT * FROM  practicetab
  where pshortname = \"$parm\"
 order by RAND()",$db) or die("cant read practice table" . mysql_error());
 $MyIndex1 = 0; 
-$number1 = mysql_numrows($result1);
+$number1 = mysqli_num_rows($result1);
  
  
 while ($MyIndex1 < $number1)
@@ -124,7 +124,7 @@ print $City . "  Hispano de "  .  $Chinese;
    
    <?php
 
-$result = mysql_query("SELECT * FROM  listingstab
+$result = mysqli_new_query("SELECT * FROM  listingstab
   
 where tstate = \"$statesh\"
  and $searchparm = \"Y\"
@@ -150,7 +150,7 @@ order by RAND() ",$db) or die("cant read it" . mysql_error());
 
 $prevcity = "";
 $MyIndex = 0; 
- $number = mysql_numrows($result);
+ $number = mysqli_num_rows($result);
  
  if ($number == 0)
 {
@@ -207,11 +207,11 @@ To add your legal services to this page click <a href=\"http://www.chineselawyer
                                   echo "<Br><b>Lawyer/</b>"; 
                                   echo "<p style=\"margin-top: 5px\"><b>$litpractice: </b>";
 
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
  $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
  
 while ($MyIndex1 < $number1)
       

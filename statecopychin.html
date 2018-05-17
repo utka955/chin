@@ -1,7 +1,6 @@
 <?php
 session_start();
-//test
- 
+
 $filepath = $_SERVER["PHP_SELF"];
 $pagename = basename($filepath);  
 list($state,$rest)= preg_split('-.htm-',$pagename);  
@@ -131,9 +130,9 @@ print 	  $statesh. " Chinese  Lawyer  Directory";
 <div id="col1r">						 
 			<?php
 $colcount = 0;
-$result1 = mysqli_query($db,"SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
-order by pseq") or die("cant read it");
+order by pseq",$dbs) or die("cant read it");
 $MyIndex1 = 0; 
  $number1 = mysqli_num_rows($result1);
 $MyIndex1 = 0;

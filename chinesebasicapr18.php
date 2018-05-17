@@ -1,17 +1,17 @@
 <?php
  
-$parm=mysql_real_escape_string($_REQUEST['parm']);
-$language=mysql_real_escape_string($_REQUEST['language']);
-$statesh=mysql_real_escape_string($_REQUEST['state']);
-$state=mysql_real_escape_string($_REQUEST['state']);
+$parm=mysqli_real_escape_string($db,$_REQUEST['parm']);
+$language=mysqli_real_escape_string($db,$_REQUEST['language']);
+$statesh=mysqli_real_escape_string($db,$_REQUEST['state']);
+$state=mysqli_real_escape_string($db,$_REQUEST['state']);
 $searchparm = "t" . $parm;
  
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
     where pshortname = \"$parm\"
     order by pseq",$db) or die("cant read practice table" . mysql_error());
   
 $MyIndex1 = 0; 
-$number1 = mysql_numrows($result1);
+$number1 = mysqli_num_rows($result1);
 $MyIndex1 = 0;
  
 while ($MyIndex1 < $number1)
@@ -94,7 +94,7 @@ print   $statesh .  " Chinese " . $Desc . " Lawyers ";
  
 <?php
  
-$result = mysql_query("SELECT * FROM  citiestab
+$result = mysqli_new_query("SELECT * FROM  citiestab
   LEFT JOIN listingstab 
 	ON citiestab.clistingno = listingstab.tlistingno 
     where cstate = \"$statesh\"
@@ -104,7 +104,7 @@ $result = mysql_query("SELECT * FROM  citiestab
 
 $prevcity = "";
 $MyIndex = 0; 
-$number = mysql_numrows($result);
+$number = mysqli_num_rows($result);
  
 if ($number == 0)
     {

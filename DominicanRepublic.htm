@@ -2,9 +2,10 @@
 session_start();
  
  
-$pagename = basename($PHP_SELF);  
+$filepath = $_SERVER["PHP_SELF"];
+$pagename = basename($filepath); 
  
-list($state,$rest)= split ('.htm',$pagename); 
+list($state,$rest)= preg_split('-.htm-',$pagename); 
 
 $_SESSION["state"] = $state;
 if ($languagec != "")

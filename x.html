@@ -2,9 +2,10 @@
 session_start();
  
  
-$pagename = basename($PHP_SELF);  
+$filepath = $_SERVER["PHP_SELF"];
+$pagename = basename($filepath);  
  
-list($state,$rest)= split ('.htm',$pagename); 
+list($state,$rest)= preg_split('-.htm-',$pagename); 
 
 $_SESSION["state"] = $state;
 if ($languagec != "")
@@ -108,11 +109,11 @@ print "<a href=" . $state . ".htm?languagec=chinese><img src=\"images/enespanol-
 <tr> <Td align=left width=50% valign=top nowrap>						 
 			<?php
 $colcount = 0;
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
 $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
 $MyIndex1 = 0;
 $half = round($number1 /2);    
  

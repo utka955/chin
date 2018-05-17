@@ -3,11 +3,11 @@ session_start();
 //session_register("Bio");
  //session_register("Chinesebio");
 include("chinesedbconnect.html");  
-$result = mysql_query("SELECT * FROM  listingstab
+$result = mysqli_new_query("SELECT * FROM  listingstab
 where tlistingno = \"$Listingno\"
 order by tcreatedate DESC",$db) or die("cant read it");
 $MyIndex = 0; 
- $number = mysql_numrows($result);
+ $number = mysqli_num_rows($result);
   
  while ($MyIndex < $number)
       
@@ -122,11 +122,11 @@ function addbio()
 <Tr height=15px>
 <?php
 $colcount = 0;
-$result1 = mysql_query("SELECT * FROM  practicetab
+$result1 = mysqli_new_query("SELECT * FROM  practicetab
  
 order by pseq",$db) or die("cant read it");
 $MyIndex1 = 0; 
- $number1 = mysql_numrows($result1);
+ $number1 = mysqli_num_rows($result1);
 $MyIndex1 = 0;
 while ($MyIndex1 < $number1)
       

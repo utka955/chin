@@ -28,7 +28,7 @@ $litinfo = "MORE INFORMATION";
 
 $spacer = "nbsp;";
  
-$result = mysql_query("SELECT * FROM  listingstab WHERE
+$result = mysqli_new_query("SELECT * FROM  listingstab WHERE
     (tlistingno = \"$thelisting\")
      ",$db) or die("cant read the table". mysql_error());
 
@@ -36,7 +36,7 @@ $result = mysql_query("SELECT * FROM  listingstab WHERE
 $MyIndex = 0; 
 $MyCount = 0; 
 
-$number = mysql_numrows($result);
+$number = mysqli_num_rows($result);
 
 //print "<Br>listing=" . $thelisting . " num=" . $number;
  	
