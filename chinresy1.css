@@ -1,0 +1,603 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+ 
+height: 100%;
+background: white;
+ 
+
+ font-family: Arial,Verdana,Sans-Serif;
+font-size: 16px;
+line-height: 150%;
+text-align: left;
+margin-top: 0;
+
+}
+a
+{
+color: #152560;
+text-decoration: none;
+} 
+ 
+ 
+img
+{
+border: none;
+}
+
+
+ 
+ul.joinbullet
+{
+background-color: white;
+margin-left:  20px; 
+list-style-position: outside; 
+padding-top 10px;
+padding-bottom: 10px;
+width: 97%; 
+}
+
+li.joinbullet
+{
+background-color: white;
+margin-bottom: 2px; 
+margin-top: 4px;
+color: #404040;
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+text-align: left; 
+width: 97%;
+list-style-type: disc;
+list-style-position: outside; 
+margin-left: 0px;
+display: list-item;
+
+}
+ 
+
+ 
+ul.terms
+{
+background-color: white;
+margin-left:  20px; 
+list-style-position: outside; 
+padding-top 0px;
+padding-bottom: 0px;
+color: #404040;
+font-style: normal;
+}
+
+li.terms
+{
+background-color: white;
+margin-bottom: 2px; 
+margin-top: 0px;
+color: #404040;
+font-size: 13px;
+font-weight: normal;
+ 
+text-align: left; 
+width: 97%;
+list-style-type: square;
+list-style-position: outside; 
+margin-left: 0px;
+
+}
+ 
+div#header
+{
+visibility: hidden;
+display: none;
+background: white;
+ 
+}
+ 
+#container {
+    width:100%;
+   margin-left: auto;
+margin-right: auto;
+background: white;
+text-align: center;
+max-width: 1300px;
+ 
+}
+
+
+
+
+#content {
+    float:left;
+    width:96%;
+    padding-left: 2%;
+    padding-right: 2%; 
+    text-align: left;
+    line-height: 200%;
+
+
+background:yellow;
+}
+ 
+ 
+#footer {
+    clear:both;
+background: white;
+}
+h1
+{
+
+font-size: 20px; 
+color:charcoal;
+text-align: left; 
+background-color: transparent;
+margin-top: 10px; 
+margin-bottom: 5px;
+font-style: normal;
+line-height: 120%;
+
+}
+h2
+{
+
+font-size: 20px; 
+color: #152560;
+text-align: center; 
+background-color: transparent;
+margin: 0px 0 10px 0;
+ padding-top: 10px;
+line-height: 100%;
+letter-spacing: 0px;
+ 
+ 
+
+}
+h3
+{
+
+font-size: 17px; 
+color:#202020;
+text-align: left; 
+letter-spacing: 1px;
+background-color: transparent;
+margin-top: 0px; 
+margin-bottom: 5px;
+font-style: normal;
+line-height: 120%;
+}
+
+h4
+{
+
+font-size: 24px; 
+color: #152560;
+text-align: center; 
+background-color: transparent;
+margin: 0px 0 10px 0;
+ padding-top: 10px;
+line-height: 100%;
+letter-spacing: 0px;
+ 
+ 
+
+}
+ 
+h5
+{
+
+font-size: 16px; 
+color: #152560;
+ 
+text-align: center; 
+background-color: transparent;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+line-height: 100%;
+letter-spacing: 0px;
+ 
+ 
+
+} 
+
+ 
+ 
+ 
+div#list1
+{
+float: left;
+width: 95%;
+padding-left: 3%;
+ 
+margin-top: 0;
+text-align: left;
+   background: white;
+font-weight: bold; 
+} 
+ 
+div#list1 a
+{
+text-decoration: none;
+color: #152560;
+font-size: 18px;
+ 
+
+}
+div#list1 a:hover
+{ 
+color: red;
+} 
+select
+{
+font-weight: bold;
+height: 25px;
+background: white;
+} 
+select option
+{
+font-weight: bold;
+height: 25px;
+background: white;
+color: black;
+} 
+ 
+ 
+div#statebox
+{
+visibility: hidden;
+display: none;
+}
+ 
+.menuheader
+{
+display: block;
+margin-top: 15px;
+color: #202020;
+font-weight: bold;
+text-align: left;
+font-size: 18px;
+text-align: left; 
+}
+.menudata
+{
+display: block;
+text-align: left; 
+font-size: 15px;
+}
+.menudata a
+{
+color: #923508;
+text-decoration: none;
+font-weight: bold;
+text-align: left;
+}
+.menudata a:hover
+{
+color: red;
+text-decoration: none;
+font-weight: bold;
+}
+ 
+
+div#myform
+{
+font-size: 14px;
+font-weight: bold;
+color: black;
+line-height: 110%;
+text-align: center;
+color: red;
+text-decoration: none;
+}
+ 
+div#myform p
+{
+margin-top: 5px;
+margin-bottom: 5px;
+color: black;
+text-decoration: none;
+ 
+}
+ 
+div#myform a
+{
+text-decoration: none;
+color: red;
+}
+
+adminsel.select
+{
+align: center;
+}
+select {
+border: solid 1px black;
+background: white;
+}
+
+textarea {
+border: solid 1px black;
+background: white;
+}
+
+ 
+
+
+@media (min-width: 600px) 
+{
+ 
+div#list1
+{
+float: left;
+padding-left: 3%;
+width: 46%;
+background: white;
+ 
+}
+
+ 
+
+}
+
+ 
+
+@media (min-width: 768px) 
+{
+ body
+{
+
+ 
+ background: white;
+
+background-size: cover;
+  background-repeat: no-repeat;
+               background-attachment: fixed; 
+}
+.toplines
+{
+         
+		 font-size: 14px; 
+		 margin-bottom: 0px;
+                 margin-top: 3px;
+                 text-align: left;
+                  padding-bottom: 0px;
+		 color: #152560;
+                 font-family: Trebuchet MS,Verdana,Arial,Sans-Serif;
+                 line-height: 180%;
+                 
+}  
+.main-menu
+{
+     font-family: Times New Roman, Verdana,Sans-Serif;
+background-color:white;
+width: 100%;
+margin-top: 0px;
+padding-top: 0px;
+font-weight: bold;
+z-index: 40000; 
+text-align: left;
+line-height: 100%;
+
+}
+ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+z-index: 40000; 
+text-align: left;
+ 
+}
+
+li { /* all list items */
+	float: left;
+	position: relative;
+	 
+	text-align: left;
+	background-color:white;
+
+ 
+ 
+padding: 2px 20px 0 0px;
+margin: 0 0 0 0;
+color: white;
+text-decoration: none;
+font-size: 14px;
+font-weight: normal;
+text-indent: 0px;	 
+
+}
+li a
+{
+color: #404040;
+text-decoration: none;
+letter-spacing: 1px; 	 
+	padding: 3 0 3 0;
+background: white;
+text-align: left;
+font-size: 14px;
+font-weight: bold;
+}
+li a:hover
+{
+color: black;
+text-decoration: none;
+	 
+	background-color: white;
+}
+
+li ul { /* second-level lists */
+	display: none;
+	position: absolute;
+	top: 1.9em;
+	left: 0;
+        width: 200px;
+	background-color: white;
+padding-bottom: 2px;
+padding-top: 2px;
+padding-left: 0px;
+padding-right: 0px;
+text-decoration: none;  
+ 
+background: white;
+text-align: left;
+font-size: 8px;
+letter-spacing: 0px;
+        
+}
+li ul a
+{
+font-size: 12px;       
+font-weight: normal;
+width: 200px;
+text-decoration: none;
+background: transparent;
+text-align: left;
+align: left;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: 10px;
+line-height: 100%;
+margin-top: 0;
+margin-bottom: 0;
+display: inline; 
+}
+
+li>ul { /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: auto;
+	left: auto;
+}
+
+li:hover ul, li.over ul { /* lists nested under hovered list items */
+	display: block;
+	
+}
+
+ 
+ 
+ 
+div#header
+{
+visibility: visible;
+display: inline;
+background:white;
+}
+ 
+
+}
+@media (min-width: 950px) 
+{
+ 
+
+#content {
+    float:left;
+    width:62%;
+    padding-left: 6%;
+    padding-right: 2%; 
+    text-align: left;
+
+background:white;
+}
+ 
+#container {
+    width:80%;
+   margin-left: auto;
+margin-right: auto;
+background: white;
+text-align: center;
+max-width: 1300px;
+}
+
+div#list1
+{
+background: white;
+}
+ 
+} 
+ 
+ 
+
+@media (min-width: 1025px) 
+{
+div#header
+{
+background: white;
+}
+ 
+div#list1
+{
+width: 46%;
+padding-left: 3%;
+background: white;
+}
+ 
+div#list1
+{
+width: 46%;
+padding-left: 3%;
+background: white;
+}
+ 
+
+}
+
+ 
+@media (max-width: 800px)   {
+h2
+{
+font-size: 16px;
+letter-spacing: 1px;
+}
+h4
+{
+font-size: 13px;
+ 
+}
+
+  
+ 
+div#statebox
+{
+margin-top: 10px;
+visibility: visible;
+display: block;
+}
+ 
+ul.joinbullet
+{
+background-color: pink;
+margin-left:  0px; 
+padding-left: 0px;
+list-style-position: inside; 
+max-width: 770px;
+}
+
+li.joinbullet
+{
+background-color: yellow;
+list-style-position: inside; 
+margin-left: 0px;
+padding-left: 0px;
+width: 95%; 
+max-width: 770px;
+}
+
+ul.terms
+{
+background-color: white;
+margin-left:  0px; 
+padding-left: 0px;
+list-style-position: inside; 
+}
+
+li.terms
+{
+background-color: white;
+list-style-position: inside; 
+margin-left: 0px;
+padding-left: 0px;
+}
+
+
+}
+

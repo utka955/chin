@@ -1,0 +1,89 @@
+
+<script>
+function showmenu()
+{
+
+//alert ("showit"); 
+document.all.menudiv.style.display = "block";
+document.all.menudiv.style.visibility = "visible"; 
+document.all.dropmenu.style.display = "block";
+document.all.dropmenu.style.visibility = "visible"; 
+ 
+
+}
+</script>
+<script>
+ 
+function dropmenu()
+{
+//alert ("dropit");
+document.all.menudiv.style.display = "none";
+document.all.menudiv.style.visibility = "hidden"; 
+document.all.dropmenu.style.display = "none";
+document.all.dropmenu.style.visibility = "hidden"; 
+ 
+
+}
+</script>
+
+ 
+<script>
+function cleartext(theone) 
+{
+ 
+ 
+ document.all[theone] .value = "";
+ 
+
+ 
+}
+</script>
+<script>
+function clearmsg() 
+{
+//alert ("clearmsg");
+ document.formarea.themessage.value = "";
+}
+</script>
+<script>
+function mycap()
+{
+  
+if (document.myform.security.value != document.myform.cap.value)
+	{
+		alert("Invalid security code");
+		document.myform.security.focus();
+		return false;
+	}
+}
+function checkcap()
+{
+  
+if (document.formarea.security.value != document.formarea.cap.value)
+	{
+		alert("Invalid security code");
+		document.formarea.security.focus();
+		return false;
+	}
+}
+</script>
+
+<script>
+ 
+function hidemenu()
+{
+ 
+ 
+//document.all.paddit.style.background = "green";  
+//document.all.paddit.style.height = "10px";  
+
+document.all.topmenu.style.position = "absolute";  
+
+//document.all.topmenu.style.height = "100px";  
+document.all.topline.style.position = "absolute";    
+ 
+ 
+}
+</script>
+ 
+ 

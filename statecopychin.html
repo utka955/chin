@@ -1,0 +1,189 @@
+<?php
+session_start();
+ 
+$filepath = $_SERVER["PHP_SELF"];
+$pagename = basename($filepath);  
+list($state,$rest)= preg_split('-.htm-',$pagename);  
+
+$_SESSION["state"] = $state;
+if ($languagec != "")
+{
+$_SESSION["language"] = $languagec;
+}
+else
+{
+$_SESSION["language"] = "english";
+}
+
+ 
+include("chinesestate.php");
+include("chinesecountry.php");
+include("chinesedbconnect.html"); 
+ 
+?>
+ 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+<?php  include("headcontent.html"); ?>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Fri, 30 Apr 2010 11:12:01 GMT" />
+<meta http-equiv="Expires" content="0" />
+<HTTP-EQUIV="PRAGMA" CONTENT="NO-STORE" />
+
+  
+
+<meta name="viewport" content="width=device-width">
+
+
+<link href="commonchin.css" type="text/css" rel="stylesheet"> 
+<link href="chinres.css" type="text/css" rel="stylesheet">
+  
+
+
+<?php include("chinresjava.html");  ?>
+
+</head>
+
+ <?php 
+include("traditional.html"); 
+include("simplified.html"); 
+ 
+include("topchinres.html"); ?>
+ 
+
+<div id="mainphoto"><img src="images/chineseheader.jpg" style="width: 100%"></div>
+ 
+<!--<div id="topstate">-->
+<div id="leftlanguage">
+ 
+<?php
+if ($language == "simplified")
+{
+print "<a href=" . $state . ".htm?languagec=traditional>$printtrad</a>";
+}
+else
+{
+if ($language == "traditional")
+{
+print "<a href=" . $state . ".htm?languagec=simplified>$printsimp</a>";
+
+}
+else
+{
+print "<a href=" . $state . ".htm?languagec=simplified>$printsimp</a>";
+ 
+ 
+}
+}
+
+?>
+</div>	
+<div id="rightlanguage">	
+<?php
+
+
+ 
+ 
+
+if ($language == "simplified")
+{
+print "<a href=" . $state . ".htm?languagec=english>$printeng</a>";
+}
+else
+{
+if ($language == "traditional")
+{
+print "<a href=" . $state . ".htm?languagec=english>$printeng</a>";
+
+}
+else
+{
+
+print "<a href=" . $state . ".htm?languagec=traditional>$printtrad</a>";
+ 
+ 
+}
+}
+
+?>
+</div>
+<div id="topstate"> 
+
+<h4 style="font-size: 18px;">
+<?php
+print 	  $statesh. " Chinese  Lawyer  Directory";
+?>
+</h4>                 
+</div> 
+ 
+<div id="smallcol"> 
+ 
+<div id="col1r">						 
+			<?php
+$colcount = 0;
+$result1 = mysqli_query($db,"SELECT * FROM  practicetab
+ 
+order by pseq") or die("cant read it");
+$MyIndex1 = 0; 
+ $number1 = mysqli_num_rows($result1);
+$MyIndex1 = 0;
+$half = ($number1 /2);
+ 
+while ($MyIndex1 < $number1)
+      
+{
+  $Shortname = (mysql_result($result1,$MyIndex1,"pshortname"));
+  $Desc = (mysql_result($result1,$MyIndex1,"pdesc"));
+  $Pagename = (mysql_result($result1,$MyIndex1,"ppagename"));
+    $Capsname = (mysql_result($result1,$MyIndex1,"pcapsname"));
+   $Spanish = (mysql_result($result1,$MyIndex1,"pspanish"));
+$colcount++;
+
+ $printdesc = $Desc;
+if ($language == "simplified")
+{
+$printdesc = $simplified[$Desc];
+}
+if ($language == "traditional")
+{
+$printdesc = $traditional[$Desc];
+}
+ 
+$statenoblank = $statesh;$statenoblank = str_replace(" ", "%20", $statenoblank);
+
+echo "<a href=\"$state/$Pagename?parm=$Shortname&state=$statenoblank&language=$language\">$printdesc</a><Br> "; 
+
+
+if ($colcount == $half)
+{
+
+ 
+echo "</div><div id=col2r>";
+}
+
+ 
+
+ 
+$MyIndex1++;
+} 
+?>
+				 
+</div></div>  </div>   </div>   </div>  
+
+   
+       
+  <?php 
+$footermargin = "20px";
+ include("botchinres.html");   ?>   
+  
+
+</body></html>

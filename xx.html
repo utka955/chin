@@ -1,0 +1,81 @@
+<?php
+
+ 
+include("chinesedbconnect.html"); 
+ 
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+ 
+ 
+
+<meta http-equiv="Content-Language" content="EN">
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+<meta name="viewport" content="width=device-width">
+
+
+<link href="http://www.ChineseLawyersNetwork.com/commonchinx.css" type="text/css" rel="stylesheet"> 
+<link href="http://www.ChineseLawyersNetwork.com/chinres.css" type="text/css" rel="stylesheet">
+<link href="http://www.ChineseLawyersNetwork.com/footerchin12234.css" type="text/css" rel="stylesheet"> 
+ 
+
+
+
+ 
+
+ 
+
+</head>
+<body>
+<table height=100% width=100% valign=top cellpadding=0 cellspacing=0 border=0>
+<tr><td>
+
+<?php 
+ 
+include $_SERVER['DOCUMENT_ROOT']."/topchinres.html";  ?>
+<div id="mainphoto"><img src="http://www.ChineseLawyersNetwork.com/images/chineseheader.jpg" style="width: 100%"></div>
+ 
+ 
+<H2 style="text-align: center; letter-spacing: 0">
+<?php
+if ($language == "chinese")
+{
+print   $statesh .  " Chinese " . $Desc . " Lawyers ";
+}
+else
+{
+print   $statesh .  " Chinese " . $Desc . " Lawyers ";
+}
+?>
+</h2> 
+ 
+</div>
+<div id="cities">
+<?php
+ $index1 = 0;
+$count = 30;
+print "<Br>start";
+while ($index1 < $count)
+{
+$index1++;
+print "<br>index1=" . $index1;
+}
+
+?>
+ 
+</div></div>    
+<?php
+if ($footermargin == "")
+{
+$footermargin = "0px";
+}
+
+?>
+ </td></tr><tr style="vertical-align: bottom"><Td>
+<div id=thefooter style="vertical-align: bottom">Where the Chinese Community Finds a Lawyer
+ </div>  
+</tr></td></table>
+</body>
+</html>

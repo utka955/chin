@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><?php //session_start();
+ 
+ 
+$pagename = basename($PHP_SELF);  
+ 
+list($state,$rest)= split ('.htm',$pagename); 
+
+$_SESSION["state"] = $state;
+
+include("chinesestate.php");
+include("chinesedbconnect.html"); 
+ 
+?>
+
+
+<title>Chinese Lawyers Network - Lawyers Join</title><meta name="keywords" content="Chinese Lawyers, Lawyer,  Attorney, Attorneys, Chinese Speaking, in Chinese, immigration, green cards, citizenships, work visas, investor visas, intracompany transfer visas, student visas, fiance visas, artist and athlete visa, religious worker visa, labor certifications, re-entry permits, work permits, deportation proceedings, court representations, political asylum">
+<meta name="description" content="Chinese Lawyers  - Join ChineseLawyersNetwork.com today!">
+<meta http-equiv="Content-Language" content="EN">
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="commonchin.css" type="text/css" rel="stylesheet"> 
+<link href="chinres.css" type="text/css" rel="stylesheet">
+  
+ 
+<meta name="viewport" content="width=device-width"> 
+
+ <?php  include("chinresjava.html");   ?> 
+</head>
+<body onload="myDate();">
+<?php   include("topchinres.html"); ?>
+
+<div id="mainphoto"><img src="images/chineseheader.jpg" style="width: 100%"></div>
+ <!-- change the width here-->
+ <div id="joincontent" style="background: white">
+
+<p style="font-size: 18px; color: #152560; text-align: center; line-height: 120%"><i><b>Join Now!</b></i>
+For all of the benefits of being a member of ChineseLawyersNetwork.com
+
+</p> 
+ 
+If you're a licensed Lawyer, join ChineseLawyersNetwork.com and begin offering your legal services to one of the fastest emerging markets in the United States, and global territories. Simply submit your membership below, and your profile will be available for search on our site within 1 business day. 
+<br><br><b>ChineseLawyersNetwork.com is at the top of the 1st page of Google</b> for the key words Chinese lawyer, Chinese lawyers, Chinese speaking lawyer, Chinese speaking lawyers, Chinese Immigration Lawyer, and Chinese Law Firm.
+ 
+
+<p style="color: #152560; font-size: 16px; text-align: left; margin-bottom: 0px; font-weight: bold"><i>Benefits of your ChineseLawyersNetwork.com Membership:</i></p></b>
+
+<table cellpadding=0 cellspacing=0 border=0 bordercolor=red width=95%><tr><Td>
+<ul class="joinbullet">
+<li class="joinbullet">Instant placement in up to 68 legal categories of your choice within our global database
+
+</ul>
+</td></tr></table>
+</div>
+
+<div id="smallcoljoin" style="max-width: 500px; text-align: left; font-weight: normal"> 
+ 
+<div id="col1r">
+ 
+<?php $colcount = 0;
+$result1 = mysql_query("SELECT * FROM  practicetab
+ 
+order by pseq",$db) or die("cant read it");
+$MyIndex1 = 0; 
+ $number1 = mysql_numrows($result1);
+$half = $number1 / 2;
+$MyIndex1 = 0;
+while ($MyIndex1 < $number1)
+      
+{
+  $Shortname = (mysql_result($result1,$MyIndex1,"pshortname"));
+  $Desc = (mysql_result($result1,$MyIndex1,"pdesc"));
+  $Pagename = (mysql_result($result1,$MyIndex1,"ppagename"));
+    $Capsname = (mysql_result($result1,$MyIndex1,"pcapsname"));
+ 
+$colcount++;
+
+ 
+echo "$Desc<Br> "; 
+if ($colcount == $half)
+{
+
+//$colcount = 0;
+echo "</div>";
+echo "<div id=\"col2r\">";
+}
+
+ 
+
+ 
+$MyIndex1++;
+} 
+?></div></div>
+ <div id="joincontent" style="background: white"> 
+<ul class="joinbullet">        
+<li class="joinbullet">Placement is local in 16 cities of your choice</li>
+<li class="joinbullet">Your profile will include your law practice categories (eg. Personal Injury, Criminal Law)
+<li class="joinbullet">Your photo
+<li class="joinbullet">A direct link to your website, and email form direct to your email
+<li class="joinbullet">Your business address 
+<li class="joinbullet">Your name and phone number in your profile
+<li class="joinbullet">Business description in both english, and spanish if you prefer.  We simply add an en espanol link to your profile.</li>
+<li class="joinbullet">If
+there is more than 1 lawyer in a city for a specific legal category,
+all lawyers will always be available for the search and the order of
+which lawyer appears 1st, 2nd, etc on the page is a random rotation.
+For example, if there are 2 Criminal lawyers in Ahaheim,
+California,&nbsp;and a user of our site searches&nbsp;Criminal Lawyer Anaheim, California, then all Criminal lawyers in Anaheim will always be available for that search,&nbsp;and the order of which lawyer appears 1st or 2nd on the page is a random rotation.
+</li></ul><br>
+<div style="max-width: 620px; margin-left: auto; margin-right: auto" > 
+ 
+<img src="images/stanleychang2.png" style="border: 1px solid black; width: 98%;   margin-top: 15px; margin-bottom: 2px">
+</div> 
+<br><br><center><b>Annual Membership Rates</b></center><br>The annual
+rate to offer your legal services on ChineseLawyersNetwork.com in 2
+legal categories is $300 (For example, Personal Injury, Family Law),
+and includes your placement in up to 16 cities of your choice within
+your state. The annual rate per additional legal category is $50. Here
+below is a simple chart.<br><br>
+<center>2 legal categories: $300<br>
+3 legal categories: $350<br>
+4 legal categories: $400<br>
+5 legal categories: $450<br>
+6 legal categories: $500<br>
+etc, etc..<center>
+ 
+   
+        <p class="big" align="justify">
+If you prefer to market your services in multiple states, please submit
+your membership in your primary state. You can later add additional
+states with our webdesigner. &nbsp;The annual rate&nbsp;per additional
+state is $150.<br>
+        
+        <b>
+        <br>
+      
+      <p style="font-size: 14px; line-height: 120%;"><b> <font color="#152560">Terms and Conditions:  
+       <ul class=terms>
+<li class=terms>ChineseLawyersNetwork.com will place your membership on ChineseLawyersNetwork.com for a 1 year term (365 days).&nbsp; 
+<li class=terms>The
+annual rate to list your services on ChineseLawyersNetwork.com in 2
+legal categories is $300, $50 per year for additional legal categories,
+and includes your profile in these categories within up to 16 cities of
+your choice within your state.&nbsp; Additional state rates are $150 per year.<br>
+<li  class=terms>All membership dues will automatically renew at the above schedule upon expiration unless
+        you notify ChineseLawyersNetwork.com &nbsp;in writing to cancel before
+        expiration. &nbsp;&nbsp;<br>
+ <li  class=terms>To cancel any membership renewal before expiration, simply email to <a href="mailto:Chineselawyersnetwork@gmail.com">Chineselawyersnetwork@gmail.com</a> 
+        and include a letter of cancellation.&nbsp; Cancellation letters of membership 
+        must include your name, and state. ChineseLawyersNetwork.com will reply to your email&nbsp;in writing confirming
+        your membership will not renew.&nbsp; <br>
+<li  class=terms>All membership sales are final.&nbsp;<br>
+<li  class=terms>ChineseLawyersNetwork.com bills via PayPal and appears on your credit card billing statement  as "ChineseOnlineBusiness.com" 
+       
+      <p> <b> By submitting your membership, you agree to the terms and conditions</b><br></left></p></li></left></ul>
+        <b>
+         </b><center><b><big style="color: red; font-weight: bold;">After
+you submit via PayPal below, <br>
+you will receive user friendly instructions to <br>
+add your profile to our site. Thank you.</big><br></b><center>
+
+
+<center>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ATJJB5ME8S9J4">
+ <p><input name="on0" value="Select # of Legal Categories &amp; Price" type="hidden">Select  
+ # of Legal Categories &amp; Price </p></b>
+ 
+<select name="os0">
+	<option value="2 legal categories:">2 legal categories: $300.00 USD</option>
+	<option value="3 legal categories:">3 legal categories: $350.00 USD</option>
+	<option value="4 legal categories:">4 legal categories: $400.00 USD</option>
+	<option value="5 legal categories:">5 legal categories: $450.00 USD</option>
+	<option value="6 legal categories:">6 legal categories: $500.00 USD</option>
+</select>
+  
+ <input name="currency_code" value="USD" type="hidden">  
+<p> <input src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image"><img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1">  
+</form></center>
+
+</div>
+</div>
+</div>
+</div>
+ <?php 
+$footermargin = "20px";
+ include("bothispres.html");   ?>
+ 
+
+</body></html>

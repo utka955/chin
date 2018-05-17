@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><?php //session_start();
+ 
+ 
+$pagename = basename($PHP_SELF);  
+ 
+list($state,$rest)= split ('.htm',$pagename); 
+
+$_SESSION["state"] = $state;
+
+include("chinesestate.php");
+include("chinesedbconnect.html"); 
+ 
+?>
+
+
+<title>Chinese Lawyers Network - Lawyers Join</title><meta name="keywords" content="Chinese Lawyers, Lawyer,  Attorney, Attorneys, Chinese Speaking, in Chinese, immigration, green cards, citizenships, work visas, investor visas, intracompany transfer visas, student visas, fiance visas, artist and athlete visa, religious worker visa, labor certifications, re-entry permits, work permits, deportation proceedings, court representations, political asylum">
+<meta name="description" content="Chinese Lawyers  - Join ChineseLawyersNetwork.com today!">
+<meta http-equiv="Content-Language" content="EN">
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="commonchin.css" type="text/css" rel="stylesheet"> 
+<link href="chinpres.css" type="text/css" rel="stylesheet">
+  
+ 
+<meta name="viewport" content="width=device-width"> 
+
+ <?php  include("chinresjava.html");   ?> 
+</head>
+<body onload="myDate();">
+<?php   include("topchinres.html"); ?>
+
+<div id="mainphoto"><img src="images/chineseheader.jpg" style="width: 100%"></div>
+ <!-- change the width here-->
+ <div id="joincontent" style="background: white">
+
+<p style="font-size: 18px; color: #152560; text-align: center; line-height: 120%"><i><b>Join Now!</b></i>
+For all of the benefits of being a member of ChineseLawyersNetwork.com
+
+</p> 
+ 
+ 
+<table cellpadding=0 cellspacing=0 border=1 bordercolor=red width=95%><tr><Td>
+<ul class="joinbullet">
+<li class="joinbullet">Instant placement in up to 68 legal categories of your choice within our global database
+
+</ul>
+</td></tr></table>
+</div>
+
+ 
+ 
+</div>
+</div>
+</div>
+ <?php 
+$footermargin = "20px";
+ include("bothispres.html");   ?>
+ 
+
+</body></html>

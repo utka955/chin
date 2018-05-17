@@ -1,0 +1,12 @@
+[04-May-2018 07:54:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Japan/chineselemonlawlawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2
+[09-May-2018 05:25:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Japan/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2

@@ -1,0 +1,927 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2586                
+POS_VISITOR 13318               
+POS_DAY 21462               
+POS_DOMAIN 3480                
+POS_LOGIN 4109                
+POS_ROBOT 4264                
+POS_WORMS 4729                
+POS_EMAILSENDER 4860                
+POS_EMAILRECEIVER 5003                
+POS_SESSION 22264               
+POS_SIDER 22454               
+POS_FILETYPES 5138                
+POS_OS 5318                
+POS_BROWSER 5478                
+POS_SCREENSIZE 6103                
+POS_UNKNOWNREFERER 6177                
+POS_UNKNOWNREFERERBROWSER 6936                
+POS_ORIGIN 7322                
+POS_SEREFERRALS 7464                
+POS_PAGEREFS 7621                
+POS_SEARCHWORDS 8075                
+POS_KEYWORDS 8227                
+POS_MISC 2249                
+POS_ERRORS 8286                
+POS_CLUSTER 3965                
+POS_SIDER_404 8412                
+POS_PLUGIN_geoip_city_maxmind 11120               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101000115 208 44188 15340774494097
+FirstTime 0
+LastTime 20151231230012
+LastUpdate 20160101080443 208 90 117 0 0
+TotalVisits 259                 
+TotalUnique 192                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 211                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 11 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 89 108 2192317 124 128 1579600
+1 16 34 1469372 145 163 1894638
+2 3 8 238737 192 196 2573163
+3 75 79 1374490 159 162 2169232
+4 164 203 4635491 163 166 2311605
+5 9 17 572404 115 117 1478434
+6 14 33 1199608 142 145 2034630
+7 12 24 751733 164 164 2043434
+8 10 14 310245 136 136 1789364
+9 33 53 1463412 155 158 2205548
+10 13 26 897618 241 241 2930525
+11 56 92 2679729 138 142 1917284
+12 25 56 1978230 88 92 852909
+13 31 58 1727490 161 168 2495199
+14 20 41 1404200 113 117 1774675
+15 23 48 1383724 137 138 1878707
+16 24 40 1036770 140 142 1856775
+17 20 28 725637 293 294 2236174
+18 26 35 800326 127 127 1488636
+19 49 54 1155036 192 197 2677690
+20 12 21 591865 114 114 1474462
+21 29 44 985800 100 104 1339412
+22 6 9 277663 175 180 2244290
+23 19 37 1154345 172 177 2309666
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+us 639 925 23914402
+de 28 28 489156
+unknown 20 46 1549404
+cn 9 13 330118
+nl 8 8 139204
+id 7 12 324552
+hk 7 13 314598
+gb 6 6 119094
+eu 6 6 119094
+sk 6 10 233404
+ua 1 1 19849
+mm 1 3 197272
+jp 3 3 56430
+kr 5 11 298974
+ru 1 1 0
+is 1 1 19849
+mx 4 11 360356
+fr 4 4 58930
+ch 2 2 39698
+sg 1 4 198291
+kh 1 4 198279
+th 3 7 238597
+it 1 6 257924
+br 3 16 769089
+hu 1 1 19849
+ca 2 2 39698
+pl 4 4 40220
+nz 3 10 461640
+ae 1 4 198271
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[+:,\.\;\/\\-] 1129 18999435 20151231235225 0
+baiduspider 984 17702939 20151231222127 0
+googlebot 875 9583568 20151231230547 0
+no_user_agent 36 622073 20151230193825 0
+crawl 6 98628 20151231091315 0
+python 5 79396 20151222012124 0
+netcraft 3 19849 20151209233856 0
+surveybot 2 39698 20151217185524 0
+java 1 19849 20151231125743 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 103 540804 0 0
+php 78 484884 0 0
+png 6 387630 0 0
+html 180 3473575 0 0
+js 17 55998 0 0
+jpg 258 18176476 0 0
+htm 520 7886875 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxsuse 1
+winlong 7
+winxp 24
+unix 32
+winnt 550
+linuxubuntu 6
+linuxfedora 3
+linux 317
+macosx 139
+win2003 22
+Unknown 61
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 42
+msie6.0 2
+firefox5.0 1
+firefox3.0.7 1
+firefox3.6 1
+firefox44.0 4
+firefox26.0 4
+firefox3.0.1 1
+firefox9.0 1
+curl 3
+firefox31.0 1
+msie8.0 6
+firefox43.0 8
+msie7.0 25
+firefox41.0 1
+firefox9.0.1 1
+msie9.0 145
+Unknown 21
+firefox3.0.8 2
+firefox3.0.2 1
+firefox3.0.18 1
+opera 2
+firefox3.0 1
+firefox3.0.11 1
+firefox3.5.2 1
+firefox38.0 6
+firefox3.0.3 1
+firefox3.07 1
+firefox3.5.5 1
+mozilla 131
+firefox3.0.12 1
+netscape5.0 19
+firefox14.0.1 10
+firefox3.0.6 2
+msie10.0 24
+firefox6.0 4
+firefox3.6.12 1
+firefox3.6.3 1
+firefox3.0.10 1
+firefox3.0.19 2
+firefox3.1 2
+safari 719
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151220165531
+semanticbot 20151220172106
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20151217114037
+www.probethenet.com_scanner 20151218210200
+Mozilla/5.0_Project_25499_(project25499.com) 20151223070956
+Mozilla/5.0_zgrab/0.x 20151230153233
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20151211060225
+Mozilla/4.0_(compatible;) 20151228133821
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20151218184600
+AddThis.com_(http://support.addthis.com/) 20151229025611
+curl/7.38.0 20151225202716
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20151218184600
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151220165531
+semanticbot 20151220172106
+AddThis.com_(http://support.addthis.com/) 20151229025611
+www.probethenet.com_scanner 20151218210200
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 491 497
+From1 0 0
+From2 69 69
+From3 30 30
+From4 188 566
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 69 69
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://burger-imperia.com 10 10
+http://rankings-analytics.com/try.php 8 8
+http://www.bing.com/search 3 3
+http://hvd-store.com 2 2
+http://hundejo.com 2 2
+http://buttons-for-website.com 1 1
+http://pizza-tycoon.com 1 1
+http://pizza-imperia.com 1 1
+http://cn.bing.com/search 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 12 5467
+206 2 34990
+400 11 2757
+404 702 347403
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 116
+/vermont.htm 1 -
+/sitemap.xml 7 -
+/robots.txt 432 -
+/westvirginia.htm 1 -
+/colorado.htm 2 -
+/illinois.htm 2 -
+/districtofcolumbia.htm 2 -
+/nevada.htm 2 -
+/phpmyadmin2/scripts/setup.php 1 -
+/hawaii.htm 2 -
+/utah.htm 1 -
+/washington.htm 1 -
+/downloader/ 1 -
+/china.htm 1 -
+/northdakota.htm 2 -
+/northcarolina.htm 2 -
+//MyAdmin/scripts/setup.php 4 -
+/maine.htm 2 -
+http://www.baidu.com/robots.txt 4 -
+/arkansas.htm 2 -
+/Singapor.htm 2 -
+/minnesota.htm 2 -
+/nebraska.htm 2 -
+/florida.htm 2 -
+/louisiana.htm 2 -
+/southdakota.htm 1 -
+/indiana.htm 2 -
+/japan.htm 1 -
+/arizona.htm 2 -
+/newzealand.htm 1 -
+/cambodia.htm 1 -
+/wyoming.htm 1 -
+http://testp5.mielno.lubin.pl/testproxy.php 7 -
+/newmexico.htm 2 -
+/delaware.htm 2 -
+/australia.htm 1 -
+/maryland.htm 2 -
+/kentucky.htm 2 -
+/oklahoma.htm 2 -
+/peru.htm 1 -
+/irj/portal 1 -
+/apple-touch-icon-152x152.png 3 -
+/missouri.htm 2 -
+http://testp4.pospr.waw.pl/testproxy.php 8 -
+/hongkong.htm 1 -
+/malaysia.htm 1 -
+/myadmin/scripts/setup.php 14 -
+/administrator 1 -
+/plus/img/wbg.gif 1 -
+/georgia.htm 2 -
+/apple-touch-icon-152x152-precomposed.png 3 -
+/massachusetts.htm 2 -
+/phph/php/ph.php 2 -
+/phpMyAdmin/scripts/setup.php 16 -
+/wp-login.php 1 -
+//pma/scripts/setup.php 4 -
+/italy.htm 1 -
+//phpmyadmin/scripts/setup.php 3 -
+/vietnam.htm 1 -
+/mississippi.htm 2 -
+/newjersey.htm 2 -
+/apple-touch-icon.png 6 -
+/connecticut.htm 2 -
+/yqyq/yqy/yq.php 1 -
+/mysql/scripts/setup.php 1 -
+/gongsijieshao/ 2 -
+/france.htm 1 -
+/templates/system/css/error.css 1 -
+/virginia.htm 1 -
+/oregon.htm 2 -
+/unitedkingdom.htm 1 -
+/kansas.htm 2 -
+//mysqladmin/scripts/setup.php 1 -
+http://testp3.pospr.waw.pl/testproxy.php 11 -
+/indonesia.htm 1 -
+/phpmyadmin/scripts/setup.php 5 -
+/redirect.php 1 -
+/wp-admin/admin-ajax.php 1 -
+/michigan.htm 2 -
+/muieblackcat 3 -
+/pennsylvania.htm 2 -
+/alaska.htm 2 -
+//myadmin/scripts/setup.php 3 -
+/phpmyadmin/scripts/signon.php 1 -
+/phpMyAdmin/scripts/signon.php 1 -
+/southcarolina.htm 2 -
+/newyork.htm 2 -
+/apple-touch-icon-precomposed.png 3 -
+/canada.htm 1 -
+/thailand.htm 1 -
+/alabama.htm 2 -
+/onlineja.com 1 -
+/montana.htm 2 -
+/singapore.htm 1 -
+/iowa.htm 2 -
+/ohio.htm 2 -
+/southkorea.htm 1 -
+http://testp2.czar.bielawa.pl/testproxy.php 9 -
+/psp/ps/ 1 -
+/pma/scripts/setup.php 14 -
+/tennessee.htm 1 -
+/rhodeisland.htm 2 -
+/newhampshire.htm 2 -
+/manager/html 1 -
+/california.htm 2 -
+http://37.48.94.6/proxychecker/check.cgi 1 http://www.google.com/search
+//phpMyAdmin/scripts/setup.php 3 -
+/wisconsin.htm 1 -
+/texas.htm 1 -
+/taiwan.htm 1 -
+http://freegeoip.net/json/ 1 -
+/myanmar.htm 1 -
+/philippines.htm 1 -
+/data/rssmap.html 2 -
+/idaho.htm 2 -
+/brazil.htm 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 76
+unknown 0 425 0 0
+us_bakersfield_ca 0 128 0 0
+us_mountain%20view_ca 0 47 0 0
+us_new%20york_ny 0 40 0 0
+us_hialeah_fl 0 31 0 0
+us_seattle_wa 0 30 0 0
+us_washington_dc 0 27 0 0
+us_monroe_wa 0 25 0 0
+us_nome_ak 0 24 0 0
+de_kiez_12 0 19 0 0
+nz_hamilton_g1 0 5 0 0
+sg_singapore_00 0 4 0 0
+us_kenmore_wa 0 1 0 0
+us_sterling_va 0 11 0 0
+us_louisville_ky 0 15 0 0
+cn_guangzhou_30 0 1 0 0
+us_kearny_nj 0 4 0 0
+sk_nitra_04 0 10 0 0
+de_aachen_07 0 5 0 0
+us_ann%20arbor_mi 0 10 0 0
+us_southampton_pa 0 12 0 0
+pl_henryk_84 0 2 0 0
+us_rocky%20point_ny 0 9 0 0
+us_glendale_ca 0 4 0 0
+us_grants%20pass_or 0 5 0 0
+us_malvern_pa 0 1 0 0
+us_lake%20forest_ca 0 1 0 0
+it_barano%20d'ischia_04 0 6 0 0
+us_stamford_ct 0 14 0 0
+th_bangkok_40 0 7 0 0
+us_simi%20valley_ca 0 2 0 0
+us_redmond_wa 0 2 0 0
+nl_utrecht_09 0 2 0 0
+nz_auckland_e7 0 5 0 0
+us_jacksonville_fl 0 2 0 0
+us_lewiston_me 0 6 0 0
+de_munich_02 0 1 0 0
+hu_budapest_05 0 1 0 0
+us_clare_ia 0 7 0 0
+us_chicago_il 0 12 0 0
+us_lincoln_ri 0 4 0 0
+us_kansas%20city_mo 0 4 0 0
+us_san%20francisco_ca 0 6 0 0
+mm_yangon_17 0 3 0 0
+kh_phnom%20penh_11 0 4 0 0
+ca_toronto_on 0 1 0 0
+us_woodbridge_nj 0 18 0 0
+us_greeneville_tn 0 10 0 0
+nl_rotterdam_11 0 1 0 0
+us_kansas%20city_ks 0 10 0 0
+us_cleveland_oh 0 4 0 0
+cn_beijing_22 0 9 0 0
+gb_cambridge_c3 0 4 0 0
+ru_saint%20petersburg_66 0 1 0 0
+us_vernal_ut 0 1 0 0
+us_fayetteville_ga 0 4 0 0
+us_hollywood_fl 0 7 0 0
+us_los%20angeles_ca 0 3 0 0
+ae_dubai_03 0 4 0 0
+us_urbana_oh 0 4 0 0
+id_jakarta_04 0 12 0 0
+fr_courbevoie_a8 0 2 0 0
+us_mcallen_tx 0 12 0 0
+us_dallas_tx 0 1 0 0
+us_omaha_ne 0 6 0 0
+us_cambridge_ma 0 1 0 0
+us_denver_co 0 2 0 0
+us_cape%20may%20court%20house_nj 0 15 0 0
+us_hilton%20head%20island_sc 0 9 0 0
+us_norwalk_ia 0 8 0 0
+us_mesa_az 0 6 0 0
+us_wilmington_de 0 1 0 0
+nl_amsterdam_07 0 1 0 0
+us_riverside_ca 0 9 0 0
+us_indianapolis_in 0 8 0 0
+us_barstow_ca 0 4 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 211
+50.138.246.215 160 199 4562887 20151201041759
+69.84.207.246 128 128 2183804 20151226000613
+66.58.162.238 16 24 478427 20151208101933
+54.153.33.145 15 15 297735 20151220112835
+24.143.79.134 13 25 608771 20151211181445
+209.181.95.158 12 20 344344 20151216170010
+167.114.174.95 12 12 192940 20151217114038
+66.176.118.40 11 31 1424672 20151229013236
+69.58.178.59 11 11 177257 20151218184611
+38.100.21.64 11 11 191536 20151222093418
+104.132.20.90 1 2 20816 20151228155932
+142.4.213.25 1 1 19849 20151214124131
+23.239.209.5 1 1 16734 20151215193826
+54.194.180.34 1 1 19849 20151222070055
+182.172.227.136 5 11 298974 20151202000018
+185.35.62.11 4 4 79396 20151230153233
+158.69.208.131 1 1 19849 20151227185515
+182.118.53.163 1 1 19849 20151231140100
+114.252.101.163 4 8 230873 20151224204954
+106.120.160.119 1 1 19849 20151228213245
+69.123.181.30 5 9 232131 20151210151923
+68.68.106.198 1 1 16874 20151215193827
+5.249.119.171 1 6 257924 20151202050832
+173.208.69.73 1 1 16734 20151215193836
+173.208.97.183 1 1 16734 20151215193834
+54.153.32.246 1 1 19849 20151205003326
+66.102.6.220 0 2 187625 
+174.107.227.203 5 9 224242 20151217135844
+66.249.88.235 0 1 3716 
+66.252.41.167 2 6 279967 20151218140248
+179.219.116.196 1 1 19849 20151202001105
+141.212.121.176 5 5 99245 20151229101753
+37.1.202.50 1 1 19849 20151205231016
+69.162.129.71 1 1 16454 20151215193832
+150.70.173.50 1 1 19849 20151202222914
+203.81.72.222 1 3 197272 20151221195047
+85.25.103.119 1 1 19849 20151212005543
+66.249.64.196 4 4 79396 20151228135919
+107.77.161.12 5 9 232078 20151230171925
+100.10.66.203 1 4 198259 20151203155946
+66.249.88.93 0 2 187625 
+204.194.141.29 1 6 257924 20151206163240
+208.54.39.189 3 9 347717 20151215065538
+141.212.122.208 1 1 19849 20151215210900
+98.203.60.49 1 6 257924 20151224203651
+72.18.136.162 1 1 17014 20151215193829
+150.70.173.45 1 1 16732 20151217201030
+69.162.143.8 1 1 16734 20151215193836
+76.124.92.255 9 15 423134 20151228212653
+96.56.90.26 9 14 351763 20151216181637
+195.154.56.44 1 1 19849 20151214232557
+66.249.84.132 1 1 19849 20151229091903
+66.249.88.124 2 3 40665 20151228132421
+66.249.88.240 0 1 183909 
+63.141.242.13 2 2 16094 20151216181955
+128.52.128.105 1 1 19849 20151211144823
+66.206.64.43 4 8 230145 20151231135739
+66.249.64.191 2 2 39698 20151228133529
+191.7.136.13 1 5 254208 20151201172701
+63.223.79.168 1 1 10055 20151215193828
+69.61.46.158 1 1 17154 20151215193828
+136.243.48.86 4 4 66656 20151231230012
+182.239.71.118 7 13 314598 20151223230522
+169.147.5.50 5 10 307494 20151216122425
+108.56.203.42 9 15 325866 20151221150008
+185.101.107.189 1 1 19849 20151211232123
+137.226.113.7 5 5 99245 20151209072522
+64.233.172.154 0 3 50450 
+186.192.240.106 1 6 257924 20151202103518
+212.7.220.58 1 1 10055 20151217022101
+104.132.20.95 0 1 5302 
+37.32.121.168 1 1 19849 20151214120526
+66.102.8.186 1 2 64030 20151217104554
+83.223.122.18 1 1 19849 20151203102459
+141.191.36.10 8 15 332304 20151201151321
+62.233.42.176 2 2 19232 20151204131347
+52.53.251.15 1 1 19849 20151209115200
+68.47.218.253 5 10 252026 20151228000544
+67.202.118.131 1 1 16174 20151215193827
+65.55.210.104 0 1 5302 
+70.39.157.197 1 1 19849 20151203103210
+69.162.153.29 1 1 16594 20151215193828
+50.250.130.162 6 10 261760 20151209135825
+107.10.130.194 1 4 198211 20151229193939
+185.106.92.44 3 3 0 20151225202716
+173.208.97.7 1 1 9177 20151215193831
+37.130.227.133 1 1 19849 20151226054108
+149.202.98.161 1 1 19849 20151231104308
+94.102.48.195 2 2 39698 20151220165531
+173.208.96.38 1 1 16174 20151215193827
+157.55.2.173 0 4 193894 
+24.205.36.189 1 4 198229 20151228022616
+100.34.17.193 4 8 296073 20151226195058
+173.208.69.118 1 1 16734 20151215193830
+69.162.152.190 1 1 16314 20151215193826
+104.128.144.131 1 1 19849 20151218210200
+169.54.233.118 1 1 19849 20151203081302
+50.242.93.188 8 13 342334 20151228090546
+94.23.247.86 1 1 19849 20151225123557
+162.248.212.181 1 1 16874 20151215193835
+173.234.230.182 1 1 17082 20151215193831
+40.117.235.54 8 8 137475 20151220172106
+8.28.16.254 5 5 87449 20151216113735
+70.209.97.200 3 7 212873 20151215184438
+172.56.26.146 3 4 98946 20151228001243
+66.249.80.36 2 2 39698 20151230105432
+86.98.24.59 1 4 198271 20151226073252
+64.233.172.162 1 1 19849 20151228121456
+74.91.33.148 1 1 16174 20151215193830
+136.243.48.82 4 4 66792 20151231171123
+136.243.48.84 4 4 57798 20151231193740
+184.100.60.86 2 5 206260 20151230124909
+141.212.122.64 1 1 19849 20151204202931
+24.30.19.136 1 4 198279 20151201123914
+54.158.100.140 1 1 19849 20151211170313
+66.87.115.149 2 5 206380 20151201120006
+128.232.110.29 4 4 79396 20151229122415
+70.39.157.196 1 1 19849 20151209141447
+38.165.15.201 2 5 214961 20151230110533
+159.53.110.142 1 4 198231 20151216113733
+68.68.106.243 1 1 16734 20151215193836
+66.249.88.114 0 1 44181 
+128.65.248.112 1 6 257924 20151202144622
+64.120.51.133 1 1 17362 20151215193831
+115.178.26.238 1 4 198279 20151221112515
+124.197.6.103 1 5 254208 20151202011330
+65.88.88.153 10 16 342200 20151201114014
+8.37.71.88 3 3 59547 20151228104333
+212.7.220.175 1 1 10055 20151216200232
+63.141.242.14 2 2 27910 20151219121255
+23.19.205.228 1 1 16734 20151215193834
+83.223.122.6 1 1 19849 20151204001823
+66.249.85.203 0 1 5302 
+62.212.73.49 1 1 19849 20151212143238
+66.87.151.26 1 4 198250 20151231111650
+167.88.7.238 1 1 19849 20151210004425
+8.37.71.78 1 1 19849 20151228132959
+200.208.100.29 1 4 253241 20151203065030
+66.249.88.10 0 1 5302 
+114.79.12.106 7 12 324552 20151218060556
+79.134.255.200 1 1 19849 20151214141558
+199.30.24.183 0 1 5302 
+192.199.242.206 1 1 17362 20151215193833
+141.212.122.160 1 1 19849 20151202000404
+104.132.20.74 1 1 9177 20151228155947
+176.10.104.243 1 1 19849 20151225132751
+67.23.72.105 1 1 19849 20151213232951
+205.123.59.12 1 1 19849 20151201233927
+68.234.26.209 1 1 17294 20151215193832
+161.150.176.4 1 4 253241 20151201162851
+107.77.161.8 1 1 8105 20151230173504
+66.102.8.191 0 2 6269 
+68.71.157.200 1 1 17642 20151215193829
+62.197.212.212 6 10 233404 20151202081512
+71.251.46.199 1 4 198236 20151201142616
+179.108.81.162 1 6 257924 20151203073317
+141.212.122.129 2 2 39698 20151210040147
+222.164.240.107 1 4 198291 20151211103045
+199.30.25.145 0 1 5302 
+208.100.26.229 1 1 0 20151211060225
+193.189.117.121 2 2 20110 20151227092452
+66.249.85.197 0 1 183909 
+79.172.193.32 1 1 19849 20151211153411
+199.19.74.10 1 1 16594 20151215193830
+209.133.77.163 1 1 19849 20151208160631
+93.70.197.160 1 6 257924 20151201061223
+66.249.80.18 0 1 967 
+155.94.222.12 1 1 19849 20151223070956
+136.243.48.85 4 4 65674 20151231064035
+125.25.185.253 3 7 238597 20151217232353
+136.243.48.83 3 3 53595 20151229054851
+72.14.230.150 3 18 773772 20151228153124
+69.162.129.112 1 1 16594 20151215193826
+188.166.97.97 1 1 0 20151221225513
+177.8.198.99 1 6 257924 20151202123541
+66.249.80.27 2 2 27938 20151228135504
+150.70.173.47 1 1 19849 20151202153300
+36.251.85.139 1 1 19849 20151230120602
+114.111.166.251 1 1 19849 20151210045624
+104.132.20.64 0 1 3716 
+108.62.59.2 1 1 16454 20151215193834
+74.132.108.182 9 15 371963 20151203111540
+98.220.235.18 1 4 198307 20151208000519
+210.54.38.62 2 5 207432 20151201051042
+212.21.66.6 1 1 19849 20151220205942
+104.232.3.33 1 1 19849 20151211163233
+208.248.33.30 1 6 257924 20151228133818
+8.37.70.37 2 2 39698 20151224221541
+46.219.14.10 1 1 19849 20151224210605
+65.55.210.28 0 1 5302 
+70.172.196.74 1 4 198259 20151222140759
+107.161.120.221 1 1 16734 20151215193828
+8.37.71.41 2 2 39698 20151229025611
+188.138.33.216 1 1 19849 20151221031203
+189.166.166.60 4 11 360356 20151218092828
+38.100.21.171 11 11 179956 20151229193429
+119.147.146.193 1 1 19849 20151226210819
+104.132.20.94 0 3 233392 
+74.125.59.214 1 6 257924 20151228122140
+139.162.193.32 1 1 19849 20151203170958
+68.38.69.32 7 12 331497 20151202013655
+167.88.7.234 1 1 19849 20151208223947
+68.234.17.40 1 1 17070 20151215193833
+23.102.70.224 1 1 19849 20151211142021
+204.11.50.131 1 1 19849 20151214121452
+195.22.126.126 2 2 20110 20151231164055
+68.68.106.146 1 1 19849 20151215164146
+68.68.110.242 1 1 18550 20151215193826
+166.137.14.56 4 9 290164 20151219000655
+192.42.116.16 2 2 39698 20151221000740
+67.202.89.9 1 1 16314 20151215193830
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 191 270 7080036 14
+20151202 29 65 2069514 15
+20151203 18 35 1200481 10
+20151204 5 5 78779 4
+20151205 2 2 39698 2
+20151206 2 7 277773 2
+20151207 13 17 293890 4
+20151208 24 40 952160 9
+20151209 12 16 380854 6
+20151210 9 13 311527 5
+20151211 11 17 555330 11
+20151212 3 4 64849 3
+20151213 2 2 39698 2
+20151214 8 9 164094 8
+20151215 40 50 1127359 36
+20151216 35 56 1327240 11
+20151217 26 39 1000037 9
+20151218 26 42 1181830 6
+20151219 7 12 337923 3
+20151220 75 75 1288924 5
+20151221 16 31 955009 7
+20151222 13 16 409644 3
+20151223 12 18 383031 4
+20151224 10 23 816503 5
+20151225 4 4 59547 4
+20151226 69 72 1357785 6
+20151227 4 7 238226 3
+20151228 51 124 4181819 26
+20151229 26 38 1411788 11
+20151230 17 28 792065 11
+20151231 18 25 628829 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+30s-2mn 20
+2mn-5mn 9
+0s-30s 223
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 143
+/ 180 3473575 144 137
+/contact.php 38 382090 8 7
+/create_image.php 29 36896 0 9
+/aboutus.htm 20 183540 3 6
+/Kentucky.htm 11 185978 4 3
+/Ohio.htm 11 180294 2 3
+/Idaho.htm 10 165520 2 1
+/Delaware.htm 9 152510 2 2
+/join.htm 9 153855 0 5
+/Kansas.htm 9 149514 2 3
+/Arizona/chinesedivorcelawyer.htm 1 8045 1 0
+/Arkansas.htm 6 101356 1 2
+/Delaware/chinesepersonalinjurylawyer.htm 1 8081 0 0
+/NewHampshire.htm 2 35004 0 0
+/SouthKorea.htm 6 104272 1 1
+/Connecticut.htm 7 121030 1 2
+/Hawaii.htm 4 66768 0 0
+/Wisconsin.htm 5 85322 0 0
+/Vermont.htm 4 67328 0 0
+/privacy.htm 8 120056 0 1
+/Idaho/chinesewrongfuldeathlawyer.htm 1 8069 0 0
+/Ohio/chinesechildcustodylawyer.htm 1 8057 0 0
+/California/chinesewrongfuldeathlawyer.htm 1 11163 0 0
+/Indiana.htm 7 117110 2 2
+/Colorado/chinesefamilylawyer.htm 1 8053 0 0
+/SouthDakota.htm 3 52086 1 1
+/Cambodia/chinesedogbiteinjurylawyer.htm 1 8101 1 1
+/Pennsylvania.htm 8 138828 3 3
+/Vietnam.htm 4 67320 0 0
+/Louisiana.htm 5 85322 0 0
+/Virginia.htm 5 84622 1 1
+/Louisiana/chineselegalmalpracticelawyer.htm 1 8093 0 0
+/Arizona/chineselawslawyer.htm 1 8065 1 0
+/California.htm 6 103036 1 1
+/Arkansas/chinesebreachofcontractlawyer.htm 1 8093 1 1
+/disclaimer.htm 6 126954 0 2
+/Nebraska.htm 5 84622 1 1
+/Michigan.htm 5 84622 1 1
+/Utah.htm 6 97044 2 2
+/Mississippi.htm 3 51938 0 0
+/Delaware/chinesefamilylawyer.htm 2 16106 2 1
+/Georgia.htm 5 83922 1 1
+/Maine/chineseimmigrationlawyer.htm 1 8089 1 0
+/Florida.htm 5 85350 1 1
+/Japan.htm 4 66200 0 0
+/jeffmlc.php 3 339 0 0
+/Thailand/chinesedivorcelawyer.htm 2 16130 1 1
+/Iowa.htm 6 97996 2 1
+/Alaska.htm 5 83222 0 0
+/UnitedKingdom.htm 2 35280 0 0
+/Tennessee/chineseimmigrationlawyer.htm 1 8105 1 1
+/Idaho/chineseieb5investorvisa.htm 1 8051 1 1
+/Oregon.htm 6 99676 2 2
+/Italy.htm 4 66200 0 0
+/Taiwan/chineselemonlawlawyer.htm 1 8113 1 1
+/Maryland/chinesedivorcelawyer.htm 3 24147 1 1
+/NewJersey.htm 6 103920 1 1
+/NewJersey/chinesecivillitigationlawyer.htm 1 8093 1 0
+/Colorado/chinesenursinghomeneglectinjurylawyer.php 1 8129 1 1
+/loginpc.php 1 8022 0 0
+/Pennsylvania/chinesetaxlawyer.htm 2 16114 1 0
+/Indonesia/chineseimmigrationlawyer.htm 2 16242 0 1
+/Illinois.htm 5 84622 1 1
+/Myanmar.htm 5 83912 0 1
+/DistrictofColumbia.htm 4 74200 1 1
+/NewZealand.htm 4 69832 0 0
+/Oklahoma.htm 5 84622 1 1
+/Michigan/chineseimmigrationlawyer.htm 3 24303 2 2
+/Arizona.htm 7 117110 2 3
+/Colorado/chinesedomesticrelationslawyer.htm 1 8093 0 0
+/Indonesia.htm 6 102660 0 0
+/NorthCarolina.htm 3 52926 1 1
+/SouthCarolina/chineseimmigrationlawyer.htm 1 8125 1 0
+/Maine.htm 5 82522 0 1
+/Cambodia.htm 4 67880 0 0
+/Connecticut/chinesefamilylawyer.htm 1 8065 0 0
+/Malaysia.htm 5 84612 1 1
+/HongKong.htm 4 68712 0 0
+/NewZealand/chinesedivorcelawyer.htm 1 8077 1 0
+/Iowa/chineseduilawyer.htm 1 8039 1 1
+/listings.php 4 40423 2 4
+/Massachusetts.htm 2 34868 0 0
+/Minnesota.htm 6 102196 1 2
+/NewYork/chineserealestatelawyer.htm 1 12923 0 0
+/Singapore.htm 6 102184 1 1
+/Ohio/chinesedivorcelawyer.htm 6 48198 3 2
+/Myanmar/chinesedivorcelawyer.htm 1 8061 1 1
+/Delaware/chineserealestatelawyer.htm 4 32260 2 2
+/NorthDakota.htm 3 52086 1 1
+/RhodeIsland/chineserealestatelawyer.htm 2 16162 2 2
+/Louisiana/chinesechildsupportlawyer.htm 1 8077 0 0
+/Colorado/chineselawslawyer.htm 1 8069 1 0
+/WestVirginia.htm 3 52506 0 0
+/France.htm 6 99664 1 1
+/Connecticut/chinesedivorcelawyer.htm 3 24183 2 0
+/Colorado.htm 6 101832 0 1
+/Washington/chinesetrustsestateslawyer.htm 3 24591 1 0
+/Indonesia/chineseieb5investorvisa.htm 2 16166 1 0
+/Thailand.htm 8 135284 2 2
+/terms.htm 6 163926 0 0
+/Tennessee.htm 6 102672 1 1
+/Philippines.htm 2 34304 0 0
+/geocities.php 1 864 0 1
+/Alabama.htm 5 83922 0 0
+/Kentucky/chineselawslawyer.htm 3 24207 1 0
+/Kentucky/chinesechildcustodylawyer.htm 1 8073 0 0
+/Taiwan.htm 4 66760 0 0
+/Nevada.htm 4 66768 0 0
+/resources.htm 7 56126 1 1
+/Australia.htm 6 102184 2 0
+/Arizona/chinesetrafficviolationslawyer.htm 1 8089 1 1
+/NewMexico.htm 4 69280 0 0
+/Delaware/chineselandlordtenantdisputeslawyer.htm 1 8125 1 0
+/archives.htm 4 32296 0 0
+/NewYork.htm 7 120946 0 0
+/Missouri.htm 4 67888 0 0
+/Idaho/chinesebankruptcylawyer.htm 1 8049 0 0
+/Delaware/chineseentertainmentlawyer.htm 1 8085 0 0
+/China.htm 7 115612 2 1
+/Colorado/chinesedomesticviolencebatterylawyer.php 1 8121 0 0
+/Alaska/chineseimmigrationlawyer.htm 3 24279 2 1
+/Kansas/chineseimmigrationlawyer.htm 2 16186 1 0
+/Brazil.htm 4 66760 0 0
+/NewJersey/chinesetaxlawyer.htm 1 8049 0 0
+/RhodeIsland.htm 3 52086 0 0
+/Montana.htm 5 83922 1 1
+/Canada.htm 5 83212 0 0
+/SouthCarolina.htm 3 52926 0 0
+/Pennsylvania/chinesebankruptcylawyer.htm 1 8077 0 0
+/Maryland/chineseduilawyer.htm 1 8055 1 1
+/Massachusetts/chinesetaxlawyer.htm 1 8061 0 1
+/Tennessee/chinesedivorcelawyer.htm 1 8053 1 0
+/Maryland.htm 7 118090 2 1
+/Texas.htm 5 82522 1 1
+/Idaho/chinesepersonalinjurylawyer.htm 2 16138 1 1
+/Idaho/chinesemedicalmalpracticelawyer.htm 1 8089 0 0
+/Cambodia/chinesetrafficviolationslawyer.htm 1 8109 1 0
+/Washington.htm 6 103512 0 1
+/Wyoming.htm 4 67328 0 0
+/Oregon/chinesedivorcelawyer.htm 2 16082 1 1
+/Tennessee/chinesetaxlawyer.htm 1 8045 0 1
+/Hawaii/chineseimmigrationlawyer.htm 1 8093 1 0
+/Peru.htm 4 65640 0 0
+END_SIDER

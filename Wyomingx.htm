@@ -1,0 +1,83 @@
+<?php
+session_start();
+ 
+ 
+$pagename = basename($PHP_SELF);  
+ 
+list($state,$rest)= split ('.htm',$pagename); 
+
+$_SESSION["state"] = $state;
+if ($languagec != "")
+{
+$_SESSION["language"] = $languagec;
+}
+else
+{
+//$_SESSION["language"] = $language;
+$_SESSION["language"] = "english";
+}
+include("chinesestate.php");
+include("chinesedbconnect.html"); 
+ 
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+<?php
+if ($language == "simplified")
+{
+print "<title>" . $statesh . " Chinese Lawyers Attorneys  - Simplified Chinese</title>";
+}
+else
+{
+if ($language == "traditional")
+{
+print "<title>" . $statesh . " Chinese Lawyers Attorneys  - Traditional Chinese</title>";
+}
+else
+{
+print "<title>" . $statesh . " Chinese Lawyers Attorneys Mandarin Chinese Speaking Lawyer</title>";
+}
+}
+?>
+
+<?php
+if ($language == "chinese")
+{
+ print "<meta name=\"keywords\" content=\"" . $statesh  .  "  Chinese Lawyers, Lawyer, Mandarin, Cantonese, Attorney, Attorneys, Chinese Speaking, immigration, Chinese Law Firm, green cards, citizenships, work visas, investor visas, EB-5 Visas, intracompany transfer visas, student visas, fiance visas, artist and athlete visa, religious worker visa, labor certifications, re-entry permits, work permits, deportation proceedings, court representations, political asylum\">";
+}
+else
+{
+print "<meta name=\"keywords\" content=\"" . $statesh  .  "  Chinese Lawyers, Lawyer, Mandarin, Cantonese, Attorney, Attorneys, Chinese Speaking, immigration, Chinese Law Firm, green cards, citizenships, work visas, investor visas, EB-5 Visas, intracompany transfer visas, student visas, fiance visas, artist and athlete visa, religious worker visa, labor certifications, re-entry permits, work permits, deportation proceedings, court representations, political asylum\">";
+}
+?>
+
+<?php
+if ($language == "chinese")
+{
+print "<meta name=\"description\" content=\"" . $statesh . " Chinese lawyers. Contact Chinese speaking lawyers who are advocates of your goals.\">";
+}
+else
+{
+print "<meta name=\"description\" content=\"" . $statesh . " Chinese lawyers. Contact Chinese speaking lawyers who are advocates of your goals.\">";
+}
+?>
+
+ 
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+<!-- required for chinese -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="css/chinese.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+ <?php 
+include("statecontent.html");   ?>
+
+ 
+</body></html>
+

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><?php //session_start();
+ 
+ 
+$pagename = basename($PHP_SELF);  
+ 
+list($state,$rest)= split ('.htm',$pagename); 
+
+$_SESSION["state"] = $state;
+
+include("chinesestate.php");
+include("chinesedbconnect.html"); 
+ 
+?>
+
+
+<title>Chinese Lawyers Network - Lawyers Join</title><meta name="keywords" content="Chinese Lawyers, Lawyer,  Attorney, Attorneys, Chinese Speaking, in Chinese, immigration, green cards, citizenships, work visas, investor visas, intracompany transfer visas, student visas, fiance visas, artist and athlete visa, religious worker visa, labor certifications, re-entry permits, work permits, deportation proceedings, court representations, political asylum">
+<meta name="description" content="Chinese Lawyers  - Join ChineseLawyersNetwork.com today!">
+<meta http-equiv="Content-Language" content="EN">
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="FOLLOW,INDEX">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+ 
+<link href="chinpresyy.css" type="text/css" rel="stylesheet">
+  
+ 
+<meta name="viewport" content="width=device-width"> 
+<style>
+ul.joinbullet 
+{
+background-color: beige;
+margin-left:  0px; 
+padding-left: 0px;
+list-style-position: inside; 
+max-width: 770px;
+color: purple;
+}
+
+li.joinbullet  
+{
+background-color: silver;
+list-style-position: inside; 
+margin-left: 0px;
+padding-left: 0px;
+width: 95%; 
+max-width: 770px;
+color: green;
+}
+
+ul 
+{
+background-color: yellow;
+margin-left:  0px; 
+padding-left: 0px;
+list-style-position: inside; 
+max-width: 770px;
+color: purple;
+}
+
+li 
+{
+background-color: pink;
+list-style-position: inside; 
+margin-left: 0px;
+padding-left: 0px;
+width: 95%; 
+max-width: 770px;
+color: green;
+}
+
+</style>
+
+
+ <?php  include("chinresjava.html");   ?> 
+</head>
+<body>
+ 
+<div id="mainphoto"><img src="images/chineseheader.jpg" style="width: 100%"></div>
+  
+ 
+ <div id="joincontentxx" style="background: white"> 
+
+
+<ul>        
+<li>Placement is local in 16 cities of your choice</li>
+<li class="joinbullet">Your profile will include your law practice categories (eg. Personal Injury, Criminal Law)
+<li class="joinbullet">Your photo
+<li class="joinbullet">A direct link to your website, and email form direct to your email
+<li class="joinbullet">Your business address 
+<li class="joinbullet">Your name and phone number in your profile
+<li class="joinbullet">Business description in both english, and spanish if you prefer.  We simply add an en espanol link to your profile.</li>
+<li class="joinbullet">If
+there is more than 1 lawyer in a city for a specific legal category,
+all lawyers will always be available for the search and the order of
+which lawyer appears 1st, 2nd, etc on the page is a random rotation.
+For example, if there are 2 Criminal lawyers in Ahaheim,
+California,&nbsp;and a user of our site searches&nbsp;Criminal Lawyer Anaheim, California, then all Criminal lawyers in Anaheim will always be available for that search,&nbsp;and the order of which lawyer appears 1st or 2nd on the page is a random rotation.
+</li></ul><br>
+ 
+
+</body></html>

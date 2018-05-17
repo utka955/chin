@@ -1,0 +1,34 @@
+ 
+
+  
+ 
+
+  
+ 
+ 
+ 
+ul 
+{
+background-color: beige;
+margin-left:  0px; 
+padding-left: 0px;
+list-style-position: inside; 
+max-width: 770px;
+color: purple;
+}
+
+li 
+{
+background-color: silver;
+list-style-position: inside; 
+margin-left: 0px;
+padding-left: 0px;
+width: 95%; 
+max-width: 770px;
+color: green;
+}
+
+ 
+
+ 
+

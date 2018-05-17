@@ -1,0 +1,810 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2604                
+POS_VISITOR 22907               
+POS_DAY 25488               
+POS_DOMAIN 3476                
+POS_LOGIN 3912                
+POS_ROBOT 4067                
+POS_WORMS 4419                
+POS_EMAILSENDER 4550                
+POS_EMAILRECEIVER 4693                
+POS_SESSION 25792               
+POS_SIDER 26002               
+POS_FILETYPES 4828                
+POS_OS 5012                
+POS_BROWSER 5111                
+POS_SCREENSIZE 5384                
+POS_UNKNOWNREFERER 5458                
+POS_UNKNOWNREFERERBROWSER 6181                
+POS_ORIGIN 6549                
+POS_SEREFERRALS 6693                
+POS_PAGEREFS 6850                
+POS_SEARCHWORDS 7120                
+POS_KEYWORDS 7272                
+POS_MISC 2268                
+POS_ERRORS 7331                
+POS_CLUSTER 3768                
+POS_SIDER_404 7462                
+POS_PLUGIN_geoip_city_maxmind 21855               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101000019 2778 674271 17104568698149
+FirstTime 20151023120659
+LastTime 20151031225315
+LastUpdate 20151101035445 2778 1626 1151 0 0
+TotalVisits 126                 
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 64                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 62 899198 79 80 608553
+1 16 23 481703 69 72 580655
+2 5 10 98937 77 77 731740
+3 3 8 297219 74 74 591723
+4 7 15 563875 113 115 1018290
+5 0 0 0 75 76 645478
+6 4 4 79392 77 78 693186
+7 5 19 571274 80 82 658355
+8 2 10 226655 254 255 2491573
+9 87 146 1583662 131 134 844182
+10 149 453 3024796 141 142 1078815
+11 84 199 2193644 103 105 799567
+12 114 199 2081615 139 140 935668
+13 43 58 689493 101 103 743520
+14 113 189 1579591 105 113 757121
+15 80 183 1693085 118 138 956145
+16 234 406 5621061 530 582 4231877
+17 30 85 1376257 431 432 3482882
+18 67 109 1096713 137 137 963165
+19 65 169 1575946 465 467 3646463
+20 227 432 5006456 192 205 1482427
+21 65 132 1689697 242 246 1956128
+22 77 138 1447916 163 164 1204908
+23 88 123 1267697 137 147 1045584
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+mx 919 1993 15109509
+us 632 1081 16440509
+vn 6 12 329655
+br 4 24 1031692
+de 4 4 72700
+it 3 17 770053
+tw 3 9 288218
+cn 2 2 23977
+nl 2 2 39696
+fr 2 2 19848
+pt 1 6 257773
+ch 2 2 39496
+unknown 2 12 515846
+ee 2 2 0
+th 1 4 206910
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 3364 31097277 20151031235923 0
+bot[+:,\.\;\/\\-] 32 406482 20151031214115 0
+no_user_agent 11 198177 20151031132656 0
+java 3 59441 20151031050506 0
+python 1 19648 20151023172220 0
+crawl 1 19848 20151029054413 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 617 5515291 0 0
+css 340 241848 0 0
+png 18 400377 0 0
+html 510 8110056 0 0
+js 35 16470 0 0
+jpg 1194 14503531 0 0
+htm 458 6358309 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 61
+winlong 1
+winxp 2
+winnt 2976
+Unknown 112
+linux 20
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 2
+firefox20.0 16
+firefox40.0 2
+firefox42.0 4
+firefox29.0 1
+firefox31.0 1
+msie8.0 1
+firefox25.0 3
+mozilla 1179
+netscape5.0 3
+msie7.0 2
+firefox3.6.28 1
+firefox41.0 6
+firefox3.6.3 1
+Unknown 15
+safari 1912
+netscape 23
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20151029205102
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20151030040723
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151030021029
+YahooCacheSystem;_YahooWebServiceClient 20151023195636
+Mozilla/5.0_zgrab/0.x 20151030094415
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20151026020546
+Mozilla/5.0_(compatible;_Yahoo_Link_Preview;_https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html) 20151031121409
+Who.is_Bot 20151027163317
+Scanning_for_research_(researchscan.comsys.rwth-aachen.de) 20151029065422
+AddThis.com_(http://support.addthis.com/) 20151029182827
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+YahooCacheSystem;_YahooWebServiceClient 20151023195636
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151030021029
+Who.is_Bot 20151027163317
+Scanning_for_research_(researchscan.comsys.rwth-aachen.de) 20151029065422
+AddThis.com_(http://support.addthis.com/) 20151029182827
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 500 502
+From1 1 1
+From2 24 24
+From3 11 12
+From4 1049 2633
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 24 24
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://rankings-analytics.com/try.php 9 9
+http://buttons-for-website.com 2 2
+https://us-mg6.mail.yahoo.com/neo/launch 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 31 15407
+302 17 0
+500 29 0
+400 1 226
+404 674 331499
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 302
+/Idaho/chineseveteransbenefitslawyer.htm 1 -
+/DistrictofColumbia/chinesecivilappealslawyer.htm 1 -
+/DistrictofColumbia/chineseconstructionlawyer.htm 1 -
+/Indiana/chinesepermanentandtotaldisabilitylawyer.php 1 -
+/NewMexico/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/Minnesota/chineselawslawyer.htm 1 -
+/NewJersey/chinesedivorcelawyer.htm 1 -
+/Indiana/chinesenursinghomeneglectinjurylawyer.php 2 -
+/privacy.htm 4 http://www.chineselawyersnetwork.com/index.html
+/DistrictofColumbia/chinesecatastrophicinjurylawyer.htm 1 -
+/Missouri/chinesepersonalinjurylawyer.htm 1 -
+/RhodeIsland/chineseveteransbenefitslawyer.htm 1 -
+/Utah/chineselandlordtenantdisputeslawyer.htm 1 -
+/join.htm 10 http://www.chineselawyersnetwork.com/
+http://testp5.mielno.lubin.pl/testproxy.php 3 -
+/DistrictofColumbia/chineseintellectualproperty.htm 1 -
+/Iowa/chineseentertainmentlawyer.htm 1 -
+/Indiana/chineseproductliabilitylawyer.php 1 -
+/Indiana/chinesecriminallawyer.htm 1 -
+/SouthCarolina/chineseintellectualproperty.htm 1 -
+/DistrictofColumbia/chinesechinausabusinesslawyer.htm 1 -
+/css/chinese6.css 5 http://www.chineselawyersnetwork.com/Wyoming.htm
+/Maine/chineseveteransbenefitslawyer.htm 1 -
+http://testp4.pospr.waw.pl/testproxy.php 5 -
+/Kentucky/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/Indiana/chineseintellectualproperty.htm 1 -
+/disclaimer.htm 7 -
+/Illinois/chineseelderlawlawyer.htm 1 -
+/aboutus.htm 17 http://www.chineselawyersnetwork.com/
+/DistrictofColumbia/chinesedivorcelawyer.htm 1 -
+/wp-login.php 1 -
+/Maryland/chinesedomesticrelationslawyer.htm 1 -
+/Indiana/chinesepaternitylawyer.htm 1 -
+/Japan.htm 2 -
+/Nevada/chineselaboremploymentlawyer.htm 1 -
+/jeffmlc.php 9 http://www.chineselawyersnetwork.com/showind.php
+/DistrictofColumbia/chineseinternationallawyer.htm 2 -
+/Delaware/chinesedivorcelawyer.htm 1 -
+/california/teststate.htm 1 -
+/Idaho/chinesecivillitigationlawyer.htm 1 -
+/listingphotos/L1001/ 4 http://chineselawyersnetwork.com/selectchinese.php
+/Indiana/chineseduilawyer.htm 1 -
+/Indiana/chinesebreachofcontractlawyer.htm 1 -
+/Indiana/chinesepersonalinjurylawyer.htm 1 -
+/Oregon.htm 1 http://chineselawyersnetwork.com/index.html
+/Arizona/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/Indiana/chinesebraininjurylawyer.htm 1 -
+/Italy.htm 1 -
+/Pennsylvania/chineseveteransbenefitslawyer.htm 1 -
+/images/chinese 1 http://chineselawyersnetwork.com/createlisting.php
+http://testp3.pospr.waw.pl/testproxy.php 4 -
+/Texas/chineselandlordtenantdisputeslawyer.htm 1 -
+/Florida/chineserealestatelawyer.htm 1 -
+/Indiana/chinesetrustsestateslawyer.htm 1 -
+/Wyoming/chinesebreachofcontractlawyer.htm 1 -
+/Ohio/chinesehomeownersassociationlawyer.htm 1 -
+/Indiana/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/loginpc.php 1 http://chineselawyersnetwork.com/createlisting.php
+/Florida/chinesetaxlawyer.htm 1 -
+/Hawaii/chineseveteransbenefitslawyer.htm 1 -
+/DistrictofColumbia/chinesemediationlawyer.php 2 -
+/UnitedKingdom/chinesepersonalinjurylawyer.htm 1 http://www.chineselawyersnetwork.com/UnitedKingdom.htm
+/Peru/chinesehomeownersassociationlawyer.htm 1 -
+/DistrictofColumbia/chinesebusinessformationlawyer.htm 1 -
+/Alabama/chineselandlordtenantdisputeslawyer.htm 1 -
+/Hawaii/chineseclassactionlawyer.htm 1 -
+/California/chineseieb5investorvisa.htm 1 http://www.chineselawyersnetwork.com/California.htm
+/NewZealand.htm 2 -
+/Alabama/chineseintellectualproperty.htm 1 -
+http://testp2.czar.bielawa.pl/testproxy.php 2 -
+/Virginia/chinesefairdebtcollectionlawyer.htm 1 -
+/Indiana/chinesesocialsecuritydisabilitylawyer.htm 1 -
+/DistrictofColumbia/chineseshortsaleslawyer.htm 1 -
+/Cambodia.htm 1 -
+/Indiana/chinesefamilylawyer.htm 2 -
+/showindsp.php 25 http://www.chineselawyersnetwork.com/listings.php
+/Georgia/chinesedogbiteinjurylawyer.htm 1 -
+/NorthDakota/chinesesocialsecuritydisabilitylawyer.htm 1 -
+/NewYork/chineseveteransbenefitslawyer.htm 1 -
+/Minnesota/chinesefamilylawyer.htm 1 -
+/Utah/chinesefamilylawyer.htm 1 -
+/Oregon/chineseloanmodificationlawyer.htm 1 -
+/Arkansas/chineseentertainmentlawyer.htm 1 -
+/googled9b7fc27ff6f13cf.html 33 -
+/ajax_captcha.js 14 http://www.chineselawyersnetwork.com/showind.php
+/listings.php 8 http://www.chineselawyersnetwork.com/California/chinesepersonalinjurylawyer.htm
+/robots.txt 69 -
+/Indiana/chineseinternationallawyer.htm 1 -
+/Ohio/chinesecivilappealslawyer.htm 1 -
+/showind.php 2 http://www.chineselawyersnetwork.com/listings.php
+/Indiana/chineseinsurancelawyer.htm 1 -
+/Oklahoma/chinesepaternitylawyer.htm 1 -
+/Indiana/chinesemediationlawyer.php 1 -
+/DistrictofColumbia/chineseentertainmentlawyer.htm 2 -
+/images/ixcp.css 2 http://chineselawyersnetwork.com/index.html
+/NorthDakota/chinesefamilylawyer.htm 1 -
+/NewHampshire/chinesejuvenilelawyer.htm 1 -
+/Singapor.htm 4 -
+/Indiana/chinesecatastrophicinjurylawyer.htm 1 -
+/listingphotos/L1007/JCP_-_Portrait_Family_2.jpg 1 http://chineselawyersnetwork.com/loadphotos.php
+/Indiana/chinesedogbiteinjurylawyer.htm 1 -
+/Utah/chineseentertainmentlawyer.htm 1 -
+/RhodeIsland/chineselaboremploymentlawyer.htm 1 -
+/Massachusetts/chinesechildsupportlawyer.htm 1 -
+/Arizona/chinesecivillitigationlawyer.htm 1 -
+/DistrictofColumbia/chinesechildcustodylawyer.htm 1 -
+/misc/druplicon.png 2 -
+/terms.htm 8 -
+/images/usamap.jpg 10 http://chineselawyersnetwork.com/index.html
+/DistrictofColumbia/chinesebraininjurylawyer.htm 1 -
+/Kentucky/chinesefederalcrimeslawyer.htm 1 -
+/Philippines.htm 1 -
+/Massachusetts/chinesedogbiteinjurylawyer.htm 1 -
+/NewMexico/chineseinsurancelawyer.htm 1 -
+/Mississippi/chineseveteransbenefitslawyer.htm 1 -
+/updatelisting2.php 1 http://chineselawyersnetwork.com/selectchinese.php
+/Indiana/chinesechinausabusinesslawyer.htm 2 -
+/California/chinesepersonalinjurylawyer.htm 2 http://www.chineselawyersnetwork.com/California.htm
+/Indiana/chineseconstructionaccidentlaw.htm 1 -
+/geocities.php 1 -
+/DistrictofColumbia/chinesehealthcarelaw.htm 1 -
+/Arkansas/chineseelderlawlawyer.htm 1 -
+/Nevada/chineseveteransbenefitslawyer.htm 1 -
+/Vermont/chinesedomesticviolencebatterylawyer.php 1 -
+/NorthCarolina/chinesebraininjurylawyer.htm 1 -
+/WestVirginia/chineseentertainmentlawyer.htm 1 -
+/Alabama/chinesecriminalappealslawyer.htm 1 -
+/NewYork/chinesemedicalmalpracticelawyer.htm 1 -
+/WestVirginia/chineseveteransbenefitslawyer.htm 1 -
+/Idaho/chinesecivilrightslaborlawyer.htm 1 -
+/Nebraska/chineseslipandfallingurylawyer.htm 1 -
+/Idaho/chinesehomeownersassociationlawyer.htm 1 -
+/Indiana/chinesedomesticviolencebatterylawyer.php 1 -
+/DistrictofColumbia/chineseworkerscompensationlawyer.htm 2 -
+/images/joomla_logo_black.jpg 2 -
+/RhodeIsland/chineseentertainmentlawyer.htm 1 -
+/Colorado/chinesedomesticviolencebatterylawyer.php 1 -
+/Peru/chinesepersonalinjurylawyer.htm 1 http://chineselawyersnetwork.com/Peru.htm
+/SouthDakota/chinesedomesticviolencebatterylawyer.php 1 -
+/Texas/chinesebusinessformationlawyer.htm 1 -
+/Indiana/chinesegayandlesbianrights.htm 1 -
+/Nebraska/chineseautomobileaccidentlawyer.htm 1 -
+/Connecticut/chineseduilawyer.htm 1 -
+/Louisiana/chineseinternationallawyer.htm 1 -
+/images/icon_server.png 4 http://chineselawyersnetwork.com/index.html
+/Kentucky/chineseconstructionaccidentlaw.htm 1 -
+/Massachusetts/chinesecivillitigationlawyer.htm 1 -
+/DistrictofColumbia/chinesecivillitigationlawyer.htm 1 -
+/scripts/nsiislog.dll 1 -
+/California/chinesefederalcrimeslawyer.htm 1 -
+/home.asp 1 -
+/Illinois/chinesepatentlawyer.htm 1 -
+/pma/scripts/setup.php 3 -
+/css/chinese.css 1 http://chineselawyersnetwork.com/index.html
+/Indiana/chinesecriminalappealslawyer.htm 1 -
+/Brazil/chinesechinausabusinesslawyer.htm 1 -
+/Delaware/chineselawslawyer.htm 1 -
+/update1.php 1 http://chineselawyersnetwork.com/updatelisting89.php
+/NewYork/chineseinternationallawyer.htm 1 -
+/DistrictofColumbia/chinesepatentlawyer.htm 2 -
+/SouthCarolina/chinesebankruptcylawyer.htm 1 -
+/images/hisback2.jpg 10 http://chineselawyersnetwork.com/index.html
+/NorthCarolina/chinesefederalcrimeslawyer.htm 1 -
+/DistrictofColumbia/chineseduilawyer.htm 2 -
+/listingphotos/L1007/Gary_&_Margie_Pregnancy_test_4.JPG 1 http://chineselawyersnetwork.com/loadphotos.php
+/SouthKorea.htm 1 -
+/Delaware/chineseveteransbenefitslawyer.htm 1 -
+/Minnesota/chineseieb5investorvisa.htm 1 http://www.chineselawyersnetwork.com/Minnesota.htm
+/Indiana/chinesesexualethnicharassment.htm 2 -
+/RhodeIsland/chinesebusinessformationlawyer.htm 1 -
+/listingphotos// 4 http://chineselawyersnetwork.com/selectchinese.php
+/Pennsylvania/chineseinsuranceclaimslawyer.php 1 -
+/Oregon/chinesedomesticrelationslawyer.htm 1 -
+/Texas/chinesechinausabusinesslawyer.htm 1 -
+/Florida/chinesemediationlawyer.php 1 -
+/Indiana/chinesechildcustodylawyer.htm 1 -
+/Arizona/chineseslipandfallingurylawyer.htm 1 -
+/Vietnam.htm 1 -
+/Indiana/chineseworkerscompensationlawyer.htm 1 -
+/Texas/chineseinsurancelawyer.htm 1 -
+/Indiana/chineseloanmodificationlawyer.htm 1 -
+/California.htm 1 http://www.chineselawyersnetwork.com/index.html
+/Alabama/chineseautomobileaccidentlawyer.htm 1 -
+/Florida/chinesesexualethnicharassment.htm 1 -
+/NorthDakota/chinesedogbiteinjurylawyer.htm 1 -
+/phpMyAdmin/scripts/setup.php 3 -
+/images/icon_money.png 4 http://chineselawyersnetwork.com/index.html
+/Oregon/chineseimmigrationlawyer.htm 1 -
+/NewJersey/chineseveteransbenefitslawyer.htm 1 -
+/WestVirginia/chineseloanmodificationlawyer.htm 1 -
+/Peru/chinesetrustsestateslawyer.htm 1 -
+/create_image.php 6 http://www.chineselawyersnetwork.com/showind.php
+/California/chinesecivillitigationlawyer.htm 1 -
+/UnitedKingdom.htm 1 -
+/DistrictofColumbia/chineseimmigrationlawyer.htm 1 -
+/Ohio/chinesemedicalmalpracticelawyer.htm 1 -
+/Maryland/chinesepaternitylawyer.htm 1 -
+/Minnesota/chineseentertainmentlawyer.htm 1 -
+/NewHampshire/chinesedomesticrelationslawyer.htm 1 -
+/Florida/chinesepermanentandtotaldisabilitylawyer.php 1 -
+/Oklahoma/chineseclassactionlawyer.htm 1 -
+/DistrictofColumbia/chineseloanmodificationlawyer.htm 1 -
+/DistrictofColumbia/chinesemedicalmalpracticelawyer.htm 1 -
+/Utah/chineseelderlawlawyer.htm 1 -
+/Vermont/chinesefairdebtcollectionlawyer.htm 1 -
+/DistrictofColumbia/chinesetrafficviolationslawyer.htm 1 -
+/Missouri/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/DistrictofColumbia/chinesegayandlesbianrights.htm 1 -
+/Myanmar.htm 1 -
+/Alabama/chineseveteransbenefitslawyer.htm 1 -
+/DistrictofColumbia/chinesepermanentandtotaldisabilitylawyer.php 1 -
+/Indonesia.htm 1 -
+/DistrictofColumbia/chinesenursinghomeneglectinjurylawyer.php 1 -
+/SouthCarolina/chineseimmigrationlawyer.htm 1 -
+/Indiana/chineselaboremploymentlawyer.htm 2 -
+/Indiana/chinesedivorcelawyer.htm 1 -
+/Idaho/chinesefederalcrimeslawyer.htm 1 -
+/Malaysia.htm 1 -
+/DistrictofColumbia/chineseveteransbenefitslawyer.htm 1 -
+/createchinesestate.php 1 -
+/Florida/chinesecivilappealslawyer.htm 1 -
+/Arizona/chinesecriminallawyer.htm 1 -
+/DistrictofColumbia/chinesecivilrightslaborlawyer.htm 1 -
+/HongKong.htm 1 -
+/bkpurpled.jpg 31 http://chineselawyersnetwork.com/geocities.php
+/SouthDakota/chineseveteransbenefitslawyer.htm 1 -
+/Oregon/chinesecriminallawyer.htm 1 -
+/admin1.php 1 http://chineselawyersnetwork.com/loginpc.php
+/DistrictofColumbia/chineseinternationalbusinesstransactionlawyer.htm 1 -
+/Oklahoma/chinesebusinesstransactionslawyer.htm 1 -
+/Kansas/chinesechinausabusinesslawyer.htm 1 -
+/SouthCarolina/chineseclassactionlawyer.htm 1 -
+/sitemap.xml 1 -
+/Indiana/chineseimmigrationlawyer.htm 1 -
+/loadphotos.php 1 http://chineselawyersnetwork.com/selectchinese.php
+/Oregon/chinesepersonalinjurylawyer.htm 1 http://www.chineselawyersnetwork.com/Oregon.htm
+/updatelisting89.php 2 http://chineselawyersnetwork.com/selectchinese.php
+/NewHampshire/chineseveteransbenefitslawyer.htm 1 -
+/Alaska/chineseveteransbenefitslawyer.htm 1 -
+/WestVirginia/chineseslipandfallingurylawyer.htm 1 -
+/m/ 5 -
+/browserconfig.xml 20 -
+/Idaho/chinesegayandlesbianrights.htm 1 -
+/Louisiana/chinesecatastrophicinjurylawyer.htm 1 -
+/California/chineseimmigrationlawyer.htm 1 -
+/Indiana/chinesebusinessformationlawyer.htm 1 -
+/France.htm 1 -
+/DistrictofColumbia/chineseieb5investorvisa.htm 1 -
+/Oklahoma/chineseveteransbenefitslawyer.htm 1 -
+/iviv/ivi/iv.php 1 -
+/Ohio/chineseveteransbenefitslawyer.htm 1 -
+/Thailand.htm 1 -
+/mobile/ 3 -
+/DistrictofColumbia/chineselegalmalpracticelawyer.htm 1 -
+/Idaho/chineseirsdebtrelieflawyer.htm 1 -
+/createbasiccountries.php 1 -
+/contact.php 25 http://www.chineselawyersnetwork.com/
+/myadmin/scripts/setup.php 3 -
+/listingphotos/L1002/ 15 http://chineselawyersnetwork.com/selectchinese.php
+/Indiana/chinesebankruptcylawyer.htm 2 -
+/Florida/chinesebreachofcontractlawyer.htm 1 -
+/Oklahoma/chinesebusinesslawyer.htm 1 -
+/Pennsylvania/chineseslipandfallingurylawyer.htm 1 -
+/Idaho/chineseloanmodificationlawyer.htm 1 -
+/Indiana/chinesemaritimelaw.htm 1 -
+/NewJersey/chinesepersonalinjurylawyer.htm 1 http://www.chineselawyersnetwork.com/NewJersey.htm
+/Brazil/chineseworkerscompensationlawyer.htm 1 -
+/Delaware/chineseduilawyer.htm 1 -
+/Arkansas/chinesemedicalmalpracticelawyer.htm 1 -
+/Taiwan.htm 1 -
+/resources.htm 3 -
+/Hawaii/chineseelderlawlawyer.htm 1 -
+/Australia.htm 2 -
+/archives.htm 4 -
+/DistrictofColumbia/chinesebankruptcylawyer.htm 1 -
+/WestVirginia/chinesewrongfuldeathlawyer.htm 1 -
+/Brazil/chineseveteransbenefitslawyer.htm 1 -
+/Washington/chinesepatentlawyer.htm 1 -
+/China.htm 1 -
+/DistrictofColumbia/chinesejuvenilelawyer.htm 1 -
+/Indiana/chineserealestatelawyer.htm 2 -
+/California/chinesetrafficviolationslawyer.htm 1 -
+/HongKong/chinesepersonalinjurylawyer.htm 1 http://www.chineselawyersnetwork.com/HongKong.htm
+/Indiana/chineseclassactionlawyer.htm 1 -
+/Alaska/chinesecontractsagreementslawyer.htm 1 -
+/Michigan/chineseveteransbenefitslawyer.htm 1 -
+/Canada.htm 1 -
+/Tennessee/chineseveteransbenefitslawyer.htm 1 -
+/DistrictofColumbia/chineselemonlawlawyer.htm 1 -
+/NewJersey/chineseforeclosure.htm 1 -
+/DistrictofColumbia/chineselawslawyer.htm 1 -
+/Wyoming/chinesecontractsagreementslawyer.htm 1 -
+/Delaware/chinesemedicalmalpracticelawyer.htm 1 -
+/Nebraska/chinesemediationlawyer.php 1 -
+/WestVirginia/chineseinsurancelawyer.htm 1 -
+/manager/html 1 -
+/Indiana/chineseforeclosure.htm 1 -
+/Kentucky/chineseautomobileaccidentlawyer.htm 1 -
+/Indiana/chineseshortsaleslawyer.htm 1 -
+/Indiana/chineselandlordtenantdisputeslawyer.htm 2 -
+/NewMexico/chinesedomesticviolencebatterylawyer.php 1 -
+/Indiana/chineseslipandfallingurylawyer.htm 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 29
+mx_puerto%20vallarta_14 0 1993 0 0
+us_hialeah_fl 0 738 0 0
+unknown 0 125 0 0
+us_mountain%20view_ca 0 64 0 0
+us_el%20monte_ca 0 53 0 0
+us_morgantown_wv 0 46 0 0
+us_new%20york_ny 0 41 0 0
+us_bellevue_wa 0 19 0 0
+us_hamden_ct 0 14 0 0
+tw_taipei_03 0 9 0 0
+us_houston_tx 0 2 0 0
+cn_hangzhou_02 0 1 0 0
+it_castenaso_05 0 6 0 0
+us_northridge_ca 0 1 0 0
+us_billings_mt 0 6 0 0
+us_novato_ca 0 8 0 0
+us_ann%20arbor_mi 0 3 0 0
+de_aachen_07 0 4 0 0
+us_seattle_wa 0 1 0 0
+it_spinea_20 0 5 0 0
+us_sunnyvale_ca 0 7 0 0
+br_são%20paulo_27 0 6 0 0
+us_lake%20forest_ca 0 3 0 0
+us_los%20angeles_ca 0 1 0 0
+br_belo%20horizonte_15 0 6 0 0
+fr_courbevoie_a8 0 1 0 0
+us_dallas_tx 0 2 0 0
+it_novara_12 0 6 0 0
+us_woodbridge_nj 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 64
+187.146.207.242 919 1993 15109509 20151031111550
+66.176.118.40 380 738 9809321 20151031225315
+64.79.100.15 46 46 783818 20151029205102
+99.162.83.23 41 53 926998 20151030210947
+32.211.159.42 27 33 585703 20151030095701
+66.102.7.171 24 24 476352 20151027171229
+66.102.7.157 21 21 416808 20151027165518
+108.62.54.47 19 41 154685 20151031150129
+66.102.7.164 13 13 258024 20151027164827
+24.17.219.26 10 19 465588 20151030173042
+50.154.81.240 1 6 257923 20151030110847
+201.26.34.84 1 6 257923 20151027045006
+8.37.70.80 1 1 19648 20151023185011
+74.6.254.143 3 3 18042 20151031121409
+154.0.64.80 1 4 253095 20151024113832
+187.104.47.124 1 6 257923 20151030070211
+54.204.95.162 1 1 19848 20151027060559
+173.224.163.92 2 8 319127 20151030161326
+109.51.135.145 1 6 257773 20151024150621
+212.7.220.134 1 1 19848 20151028124252
+50.241.226.205 5 20 336425 20151024142717
+110.75.87.151 1 1 4129 20151023122024
+8.37.71.43 1 1 19848 20151027063454
+70.57.239.98 3 6 240912 20151030114859
+141.212.122.160 1 1 19848 20151027124059
+14.161.0.239 6 12 329655 20151028001916
+50.17.26.142 1 1 19848 20151027011015
+177.34.204.81 1 6 257923 20151027195020
+184.173.144.3 1 1 19848 20151027163317
+203.69.6.235 3 9 288218 20151028161035
+68.64.169.226 1 1 19848 20151031042134
+184.173.183.171 1 1 19648 20151024031926
+62.233.42.166 1 1 19848 20151030191852
+94.102.48.194 1 1 19848 20151028021305
+98.136.189.239 0 1 44181 
+141.212.121.192 1 1 19848 20151030094415
+8.37.71.70 1 1 19648 20151024031151
+49.229.6.244 1 4 206910 20151029082715
+8.37.70.135 1 1 19848 20151029182827
+5.87.103.187 1 6 257923 20151026033225
+177.184.99.133 1 6 257923 20151028112242
+141.212.122.128 1 1 19848 20151028165610
+74.6.254.109 3 3 43565 20151025143232
+80.79.119.220 1 1 0 20151028133027
+137.226.113.7 4 4 72700 20151029065422
+125.118.2.215 1 1 19848 20151026020546
+76.74.97.4 1 1 19848 20151025102957
+79.49.58.212 1 6 257923 20151027173508
+169.54.233.123 1 1 19648 20151024074448
+80.79.119.235 1 1 0 20151027233813
+23.235.227.106 1 4 206912 20151029045142
+173.162.247.137 8 14 367781 20151030120951
+169.57.5.20 1 1 19848 20151030021029
+66.249.91.21 2 2 39696 20151030040723
+66.249.92.28 1 1 19848 20151027201327
+186.208.78.133 1 6 257923 20151028214238
+151.76.116.22 1 5 254207 20151031074435
+72.14.199.7 1 1 19848 20151029001238
+50.97.52.130 2 2 39496 20151027070623
+72.14.199.5 1 1 19848 20151029001111
+158.69.2.151 3 3 59241 20151031044002
+95.225.27.141 1 6 257923 20151029094501
+66.249.92.22 1 1 19848 20151027201205
+62.210.105.163 1 1 0 20151030122604
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20151023 31 94 1348481 8
+20151024 103 452 3504696 15
+20151025 181 343 3149107 13
+20151026 350 505 5418222 14
+20151027 164 264 3752264 19
+20151028 149 265 3771170 13
+20151029 245 460 4964156 12
+20151030 281 581 7812513 22
+20151031 81 208 1425273 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 16
+15mn-30mn 12
+0s-30s 66
+30s-2mn 5
+2mn-5mn 3
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 108
+/ 425 8065686 98 83
+/selectchinese.php 133 1318905 4 2
+/listings.php 85 882672 1 2
+/create_image.php 72 92163 1 7
+/California.htm 66 1150225 1 2
+/Oregon.htm 57 944479 1 4
+/California/chinesepersonalinjurylawyer.htm 53 410034 0 2
+/listingphotos/L1004/ 44 22968 0 2
+/showind.php 41 491426 1 2
+/updatelisting2.php 38 683127 0 0
+/Arkansas.htm 2 33468 0 0
+/Massachusetts.htm 10 159762 0 1
+/xx.php 2 24546 0 0
+/NewHampshire.htm 3 53050 1 1
+/SouthKorea.htm 7 120804 0 0
+/Minnesota.htm 1 17706 0 1
+/loadphotos.php 23 195334 0 0
+/Connecticut.htm 9 121982 0 0
+/NewJersey/chinesechinausabusinesslawyer.htm 1 8109 0 0
+/Oregon/chinesepersonalinjurylawyer.htm 13 108939 0 0
+/listingphotos/L1003/ 3 1566 0 0
+/Hawaii.htm 2 32908 0 0
+/updatelisting89.php 16 293223 0 0
+/Massachusetts/chinesebankruptcylawyer.htm 1 8081 0 0
+/NorthDakota.htm 4 70332 1 1
+/Vietnam/chinesecivillitigationlawyer.htm 1 8097 0 0
+/California/chineseautomobileaccidentlawyer.htm 2 19140 0 0
+/NorthDakota/chinesefamilylawyer.htm 2 16138 0 0
+/Indiana.htm 2 33188 0 0
+/California/chinesetaxlawyer.htm 2 16098 0 0
+/NewYork/chinesetaxlawyer.htm 1 8041 0 0
+/California/chineseimmigrationlawyer.htm 1 8109 0 0
+/update2.php 33 2660 0 0
+/join.htm 36 604096 2 4
+/createchinesecountries.php 2 69978 0 0
+/Pennsylvania.htm 2 35540 0 0
+/Vietnam.htm 3 50252 1 1
+/Colorado.htm 2 33468 0 0
+/Delaware.htm 2 33468 0 0
+/Nevada/chinesetrafficviolationslawyer.htm 1 8085 0 0
+/Louisiana.htm 2 33748 0 0
+/listingphotos/L1007/ 3 1566 0 0
+/Thailand.htm 2 33940 1 1
+/NewJersey/chineseautomobileaccidentlawyer.htm 1 11079 0 0
+/NewJersey/chineseieb5investorvisa.htm 2 21882 0 0
+/Kansas.htm 2 32908 0 0
+/updatelisting89.php/selectchinese.php 1 18266 0 0
+/delete.php 1 153 0 0
+/contact.php 3 30165 0 0
+/geocities.php 21 25973 1 1
+/aboutus.htm 4 36703 1 1
+/Indonesia/chinesecontractsagreementslawyer.htm 1 8121 0 0
+/Alabama.htm 2 33188 0 0
+/NewJersey/chinesepersonalinjurylawyer.htm 19 210433 0 0
+/listingphotos/L1005/ 32 16704 0 0
+/Nevada.htm 1 16930 0 0
+/Florida.htm 2 34140 0 0
+/Georgia.htm 2 33188 0 0
+/NewJersey/chineselawslawyer.htm 8 88697 3 2
+/listingsx.php 9 110581 0 0
+/resources.htm 7 42232 0 0
+/jeffmlc.php 7 711 0 0
+/California/chinesebankruptcylawyer.htm 1 8021 0 0
+/Alaska.htm 2 32908 0 0
+/Iowa.htm 3 48998 0 0
+/UnitedKingdom.htm 2 35960 0 0
+/Australia.htm 1 17348 0 0
+/archives.htm 6 56856 0 0
+/NewYork.htm 10 119994 1 1
+/Missouri.htm 1 16734 1 1
+/try.php 2 13 0 0
+/China.htm 2 33100 1 0
+/addnew.php 6 890 0 0
+/Vietnam/chineselawslawyer.htm 1 8081 0 0
+/Peru/chinesepersonalinjurylawyer.htm 4 18945 0 0
+/NewJersey.htm 26 450116 0 0
+/createchinesestates.php 37 631933 0 0
+/Cal/doit.php 1 47 0 0
+/Texas/chinesepersonalinjurylawyer.htm 1 8069 0 0
+/loginpc.php 26 208851 0 0
+/Australia/chinesepersonalinjurylawyer.htm 7 8682 1 1
+/Montana.htm 4 67804 1 1
+/Kentucky.htm 2 33468 0 0
+/Iowa/chinesepersonalinjurylawyer.htm 1 8017 0 0
+/California/chinesefederalcrimeslawyer.htm 1 8037 0 0
+/Illinois.htm 2 33468 0 0
+/Texas.htm 7 118220 1 2
+/DistrictofColumbia.htm 2 36556 0 0
+/Idaho.htm 4 66208 0 0
+/California/chineseieb5investorvisa.htm 2 17110 0 0
+/listingphotos/L1006/ 3 1566 0 0
+/Arizona.htm 2 33188 0 0
+/Washington/chinesetaxlawyer.htm 1 8049 0 0
+/createlisting.php 14 113210 0 0
+/Washington.htm 3 52832 0 0
+/Thailand/chinesepersonalinjurylawyer.htm 1 8049 0 0
+/Indonesia.htm 1 16872 1 0
+/NewYork/chinesepersonalinjurylawyer.htm 1 8081 0 0
+/NewHampshire/chinesebankruptcylawyer.htm 1 8081 0 0
+/Cambodia.htm 1 16732 0 0
+/California/chinesechinausabusinesslawyer.htm 2 17168 0 0
+/Pennsylvania/chinesepersonalinjurylawyer.htm 1 8097 0 0
+/showindsp.php 16 198388 1 0
+/update1.php 11 1155 0 0
+/HongKong.htm 2 34560 0 0
+/admin1.php 17 120921 0 0
+/Peru.htm 8 135007 0 0
+/California/chineseirsdebtrelieflawyer.htm 1 8105 0 0
+END_SIDER

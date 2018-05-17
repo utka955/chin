@@ -1,0 +1,371 @@
+body
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #404040;
+}
+. a
+{
+color: #152560;
+text-decoration: none;
+}
+h1
+{
+         text-indent: 0;
+	 font-size: 17px; 
+	 margin-top: 7px;
+	 color: #152560
+        text-align: center;
+}		
+h2
+{
+         text-indent: 10px;
+	 font-size: 16px; 
+	 margin-top: 7px;
+       	font-family: Verdana, Arial, Helvetica, sans-serif;
+	 color: #152560;
+	 margin-bottom: 0px;
+	 padding-top: 2px;
+	 padding-bottom: 2px;
+	 text-align: left;
+}
+h3
+{
+         text-indent: 0;
+	 font-size: 24px; 
+	 margin-top: 7px;
+	 color: #152560;
+          align: center;
+          text-align: center;
+}
+.lang
+
+{             
+font-size: 13px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#152560;
+TEXT-DECORATION: none;
+ line-height: 150%;
+
+
+}
+.lang a
+
+{             
+font-size: 13px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#152560;
+color:red;
+padding-top: 5px;
+ 
+TEXT-DECORATION: none;
+ line-height: 150%;
+
+}
+.lang a:hover
+
+{             
+ 
+color:red;
+ 
+
+}
+.sponsor
+{
+text-align: center;
+font-size: 18px;
+color: #152560;
+letter-spacing: 0px; 
+font-weight: bold;
+}
+.navtop
+{
+font-size: 12px; 
+background-color: #555555;
+font-weight: normal;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+color:white;
+TEXT-DECORATION: NONE;
+height: 25px;
+margin-bottom: 0px;
+background-image: url(http://chineselawyersnetwork.com/images/navback2.jpg);
+}
+.navtop a 
+{
+color: white;
+padding: 0px 25px 0 25px;
+TEXT-DECORATION: NONE;
+letter-spacing: 1px; 
+text-align: center;
+border-right: solid;
+border-right: color: #939393;
+border-right-width: 1px;
+}
+.navtop a:hover
+{
+ 
+TEXT-DECORATION: none;
+
+color: #C0C0C0;
+
+}
+
+.practice
+
+{             
+font-size: 13px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#152560;
+TEXT-DECORATION: none;
+ line-height: 150%;
+
+}
+.practice a
+
+{             
+font-size: 13px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#152560;
+ 
+TEXT-DECORATION: none;
+ line-height: 150%;
+
+}
+.practice a:hover
+
+{             
+ 
+color:red;
+ 
+
+}
+.normaltext 
+{             
+font-size: 13px; 
+background-color: transparent;
+ 
+ 
+color: #404040;
+ 
+line-height: 150%;
+
+}
+.states
+
+{             
+font-size: 14px; 
+line-height: 120%;
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#152560;
+ 
+ 
+
+}
+.states a
+{
+font-size: 14px; 
+text-decoration: udnerline;
+padding-left: 3px;
+padding-right: 3px;
+color:#152560;
+}
+.states a:hover
+{
+color: red;
+}
+.join
+
+{             
+font-size: 12px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#517AE3;
+TEXT-DECORATION: none;
+ line-height: 120%;
+font-style: italic;
+color: #152560;
+font-family: Arial,Sans-Serif,Trebuchet MS,Verdana;
+}
+
+
+.practice
+
+{             
+font-size: 13px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#517AE3;
+TEXT-DECORATION: none;
+ line-height: 150%;
+
+}
+.countries
+
+{             
+font-size: 11px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#517AE3;
+TEXT-DECORATION: none;
+ line-height: 200%;
+
+}
+.countries a
+{
+ 
+text-decoration: udnerline;
+ 
+color:#152560;
+}
+.countries a:hover
+{
+color: red;
+}
+
+.thebottom
+
+{             
+font-size: 11px; 
+background-color: transparent;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#404040;
+TEXT-DECORATION: none;
+ line-height: 200%;
+align: center;
+}
+.thebottom a
+{
+ 
+text-decoration: udnerline;
+ 
+color:#152560;
+}
+.thebottom a:hover
+{
+color: red;
+}
+.textmsg
+
+{             
+font-size: 12px; 
+background-color: transparent;
+font-weight: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #152560;
+TEXT-DECORATION: none;
+ line-height: 110%;
+text-align: center;
+
+}
+.textmsg a 
+{
+color: #152560;
+padding: 0 0 0 0;
+TEXT-DECORATION: NONE;
+background-color: transparent;
+text-align: center;
+TEXT-DECORATION: underline;
+}
+.textmsg a:hover
+{
+background-color: transparent;
+TEXT-DECORATION: underline;
+
+color: red;
+
+}
+.formbox
+{
+padding: 0px 0px 0px 12px;
+font-style: normal;
+font-size: 12px;
+text-align: justify;
+font-weight: normal;
+color: black;
+font-family:   Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+ 
+
+.listingsbox
+{
+color: black;
+font-size: 12px;
+font-family: Arial,Sans-Serif,Trebuchet MS,Verdana;
+line-height: 110%;
+} 
+.listingsbox a
+{
+color: blue;
+font-size: 12px;
+font-family: Arial,Sans-Serif,Trebuchet MS,Verdana;
+text-decoration: underline;
+} 
+.listingsbox a:hover
+{
+color: black;
+font-size: 12px;
+         font-family: Arial,Sans-Serif,Trebuchet MS,Verdana;
+text-decoration: underline;
+
+} 
+
+.big
+{
+color: #404040;
+font-size: 13px;
+line-height: 120%;
+               font-family: Arial,Verdana,Sans-Serif;
+
+}
+li.blue
+{
+margin-bottom: 5px; 
+color: #152560
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+
+}
+
+.myform2 {
+	FONT-WEIGHT: NORMAL; FONT-SIZE: 14px; COLOR: BLACK;
+	               font-family: Verdana, Arial, Helvetica, sans-serif;
+				   background-color: beige;
+
+}
+
+.myform
+{
+FONT-WEIGHT: bold; FONT-SIZE: 12px; 
+color: 152560;
+}
+.myform a
+{
+FONT-WEIGHT: bold; FONT-SIZE: 12px; 
+color: 152560;
+text-decoration: none;
+}
+.red
+{
+color: red;
+}
+.red a
+{
+color: red;
+}
+

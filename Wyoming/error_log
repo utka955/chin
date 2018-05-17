@@ -1,0 +1,30 @@
+[03-May-2018 18:30:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Wyoming/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2
+[05-May-2018 14:47:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Wyoming/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2
+[07-May-2018 21:45:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Wyoming/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2
+[16-May-2018 00:50:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Wyoming/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2
+[16-May-2018 02:18:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Mysql_Connect() in /home/bbbm0qy/public_html/chinesedbconnect.html:2
+Stack trace:
+#0 /home/bbbm0qy/public_html/citiescopychin.html(4): include()
+#1 /home/bbbm0qy/public_html/Wyoming/chinesedivorcelawyer.htm(1): include('/home/bbbm0qy/p...')
+#2 {main}
+  thrown in /home/bbbm0qy/public_html/chinesedbconnect.html on line 2

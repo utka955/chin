@@ -1,0 +1,84 @@
+<div id="toplineclear"> 
+</div> 
+ 
+
+
+<div id="whole"> 
+<div id="topmenu" style="background-color: white"> 
+<center>
+<div id="centermenu" style="background-color: white">
+
+ 
+
+
+<!--END OF HEADER / MENU DIV --->
+ 
+ 
+
+ 
+<div id="smalltop" style="background-color: white"> 
+<div id=box1><a href="#" onClick="showmenu()" ><img src="http://www.chineselawyersnetwork.com/images/blackhamburger.jpg" class="hamburgerx"></a></div>
+<div id=box2><div id=thelogo><a href="http://www.chineselawyersnetwork.com/index.html"><img src="http://www.chineselawyersnetwork.com/images/cln.jpg" border=0></a></div></div>
+<div id=box3>
+<?php
+if ($adminpage == "y")
+{
+include("chinadminmenu.html");  
+}
+else
+{
+include("chintopmenu.html");  
+}
+?></div> 
+ 
+ 
+</div> </center>
+
+</div>
+<!--END OF HEADER / MENU DIV --->
+</div>
+
+ 
+ </div>
+
+  <!--HERE IS THE DROPDOWN --->
+
+<div id="menudiv" name="menudiv" style="display: none; visibility: hidden; text-align: left;"> 
+ 
+  
+
+<?php   
+
+if ($adminpage == "y")
+{ 
+include("chinadminmenuham.html");
+}
+else
+{
+include("chinmenuham.html");
+}
+ ?>  
+
+ 
+ 
+</div>
+ 
+
+
+<div id="container">
+<div id="body" style="background: white">
+
+<div id="paddit"></div>
+
+
+
+<?php
+
+
+if ($drophead != "y")
+{
+//print "<H2>Hispanic Lawyers Network</h2>";
+}
+
+?>
+ 

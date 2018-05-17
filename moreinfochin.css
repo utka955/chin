@@ -1,0 +1,308 @@
+
+
+ 
+/* 
+input, select, textarea
+{
+background: beige;
+border: solid 1px darkblue;
+color: darkblue;
+font-weight: bold;
+height: 30px;
+font: 16px;
+
+}
+*/
+h1
+{
+margin-top: 0px;
+font-size: 28px;
+color: black;
+}
+ 
+div#container
+{
+width: 100%;
+align: center;
+background: white;
+font-size: 16px; 
+color: black;
+ 
+
+} 
+ 
+  
+.smalltopline
+{
+text-indent: 2px; 
+margin-top: 0px; 
+margin-bottom: 0px; 
+color: gray; 
+background: white; 
+font-size: 12px;
+line-height: 100%;
+font-weight: normal;
+letter-spacing: 0px;
+padding: 0 0 0 0;
+} 
+ 
+ 
+div#list80
+{
+width: 100%;
+ 
+background:white;
+}
+
+div#listcontainer
+{
+ 
+ 
+ 
+width: 100%;
+margin: auto;
+background: white; 
+ 
+font-family: Arial,Sans-Serif,Trebuchet MS,Verdana; 
+ 
+} 
+div#listcontainer a
+{
+color: blue;
+
+text-decoration: underline;
+}
+
+div#list1
+{
+width: 35%;
+float: left;
+min-height: 550px;
+padding-right: 10px; 
+vertical-align: top; 
+background: white; 
+ 
+}
+ 
+div#list2
+{
+width: 97%;
+float: left;
+ 
+ 
+vertical-align: top; 
+padding-left: 2%; 
+font-size: 16px;
+line-height: 130%;
+background: white; 
+}
+div#list3
+{
+width: 98%;
+float: left;
+padding-left: 2%;  
+word-wrap: break-word; 
+display: inline; font-size: 16px;
+line-height: 130%; 
+ 
+}
+div#list4
+{
+
+padding-top: 10px; 
+padding-left: 2%;
+padding-right: 2%;
+font-size: 16px; 
+background: white; 
+ float: left;
+line-height: 130%;
+ 
+ 
+width: 96%;
+font-size: 16px; 
+line-height: 130%;
+} 
+ 
+.searchline
+{
+font-size: 14px;
+text-align: center;
+padding-top: 30px;
+color: grey;
+}
+.searchline a
+{
+color: grey;
+text-decoration: none;
+}
+div#map_canvas
+{
+height: 100%;
+width: 100%;
+align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+ 
+}
+
+div#formarea
+{
+font-size: 13px;
+font-weight: bold; 
+color: darkblue;
+width:90%;
+background: white;
+margin: auto;
+text-align: center;
+ 
+} 
+div#formarea a
+{
+text-decoration: none;
+}
+  
+@media (min-width: 737px) 
+{
+
+ 
+
+ 
+
+
+ div#container
+{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+font-size: 12px;
+color: black;
+}
+
+ 
+
+.searchline
+{
+padding-top: 10px; 
+} 
+div#list1
+{
+width: 26%;
+min-height: 50px;
+padding-left: 10px;
+font-size: 12px;
+} 
+div#list2
+{
+width: 45%;
+font-size: 12px; 
+background: white;
+} 
+div#list3
+{
+width: 45%;
+font-size: 12px; 
+ 
+} 
+
+div#list4
+{
+
+ 
+font-size: 12px;  
+ 
+padding-top: 10px;
+ 
+background: white;
+line-height: 130%;
+} 
+div#list80
+{
+width: 100%;
+ 
+ 
+} 
+div#listcontainer
+{
+width: 590px;
+ 
+align: center;
+margin: auto;
+  
+}
+ 
+ 
+}
+
+@media (min-width: 1280px) 
+{
+ 
+
+div#container
+{
+width: 70%;
+font-size: 12px; 
+color: black;
+
+}
+ 
+div#list1
+{
+min-height: 50px;
+}
+
+
+}
+
+@media (max-width: 375px) 
+
+{
+
+div#container
+{
+ 
+font-size: 16px; 
+color: black;
+
+}
+div#list1
+{
+width: 40%;
+ 
+text-align: left;
+min-width: 130px;
+min-height: 50px;
+}
+ 
+ 
+div#list2
+{
+width: 100%;
+background: white;
+}
+
+div#list3
+{
+width: 100%;
+}
+
+ 
+}
+
+@media (max-width: 350px) 
+
+{
+div#map_canvas
+{
+height: 320px;
+width: 99%;
+align: center;
+margin-left: auto;
+margin-right: auto;
+ 
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+}
+}
+
+ 
