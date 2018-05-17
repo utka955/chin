@@ -113,7 +113,7 @@ print   $statesh .  " Chinese " . $Desc . " Lawyers ";
 <div id="cities" style="line-height: 150%">
 <?php
  
-$result = mysqli_query("$db,SELECT * FROM  citiestab
+$result = mysqli_query($db,"SELECT * FROM  citiestab
   LEFT JOIN listingstab 
 	ON citiestab.clistingno = listingstab.tlistingno 
     where (cstate = \"$statesh\" or ccountry = \"$statesh\")
