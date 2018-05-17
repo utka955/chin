@@ -8,7 +8,7 @@ $statesh=mysqli_real_escape_string($db,$_REQUEST['state']);
 $state=mysqli_real_escape_string($db,$_REQUEST['state']);
 $searchparm = "t" . $parm;
  
-$result1 = mysqli_query("$db,SELECT * FROM  practicetab
+$result1 = mysqli_query($db,"SELECT * FROM  practicetab
     where pshortname = \"$parm\"
     order by pseq") or die("cant read practice table" . mysql_error());
   
