@@ -7,10 +7,10 @@ $language=mysqli_real_escape_string($db,$_REQUEST['language']);
 $statesh=mysqli_real_escape_string($db,$_REQUEST['state']);
 $state=mysqli_real_escape_string($db,$_REQUEST['state']);
 $searchparm = "t" . $parm;
- 
+ //print_r($parm); print_r($language); print_r($statesh); print_r($state); print_r($searchparm);
 $result1 = mysqli_query($db,"SELECT * FROM  practicetab
     where pshortname = \"$parm\"
-    order by pseq") or die("cant read practice table" . mysql_error());
+    order by pseq") or die("cant read practice table" . mysqli_error($db));
   
 $MyIndex1 = 0; 
 $number1 = mysqli_num_rows($result1);

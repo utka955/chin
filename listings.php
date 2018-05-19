@@ -28,7 +28,7 @@ $parm = substr($searchparm, 1);
 
  $result1 = mysqli_new_query("SELECT * FROM  practicetab
  where pshortname = \"$parm\"
-order by RAND()",$db) or die("cant read practice table" . mysql_error());
+order by RAND()",$db) or die("cant read practice table" . mysqli_error($db));
 $MyIndex1 = 0; 
 $number1 = mysqli_num_rows($result1);
  
@@ -228,14 +228,14 @@ or tcountry = \"$statesh\")
  or (tcity13 like \"$Cityx\")
  or (tcity14 like \"$Cityx\")
  or (tcity15 like \"$Cityx\"))
-order by RAND() ",$db) or die("cant read the listingstab" . mysql_error());
+order by RAND() ",$db) or die("cant read the listingstab" . mysqli_error($db));
 
 
-if (mysql_error() != "")
+if (mysqli_error($db) != "")
 {
 print "<br><span style=\"font-size: 14px; color: red\">Our site database is currently experiencing technical difficulties with the Firefox browser.  Please view our site <b>chineselawyersnetwork.com</b> 
 using another internet browser such as explorer, chrome, safari, iOS, android.";
-print "<Br>Error Message: " . mysql_error();
+print "<Br>Error Message: " . mysqli_error($db);
 print "<br><br></span>";
 exit();
 }
