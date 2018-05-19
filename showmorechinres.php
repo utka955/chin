@@ -191,7 +191,7 @@ $MyIndex1++;
 		  }
 		 
 		  $Companyq = str_replace(" ", "_", $Company);
-                  list($part1,$part2)= split ('@',$userid,50);  
+                  list($part1,$part2)= preg_split ('~@~',$userid,50);  
 
  
  

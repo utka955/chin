@@ -6,10 +6,10 @@ include("chinesedbconnect.html");
 
  
  
-$searchparm = $HTTP_GET_VARS['searchparm']; 
+$searchparm = $_GET['searchparm']; 
 //added these
-$City = $HTTP_GET_VARS['City']; 
-$statesh = $HTTP_GET_VARS['statesh']; 
+$City = $_GET['City']; 
+$statesh = $_GET['statesh']; 
 //end add
 $Cityx       = "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
 if ($City != "")
@@ -530,7 +530,7 @@ $MyIndex1++;
 
    $Passfirst = str_replace(" ", "_", $Fname);
   $Companyq = str_replace(" ", "_", $Company);
-                  list($part1,$part2)= split ('@',$userid,50);  
+                  list($part1,$part2)= preg_split('~@~',$userid,50);  
    		  $Fname = str_replace(" ", "_", $Fname);
    		  $Lname = str_replace(" ", "_", $Lname);
    		  $Fname = str_replace("'", "@", $Fname);
