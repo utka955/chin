@@ -91,8 +91,7 @@ $Name = "Chinese Lawyers Network";
 </div>
 </div>
 <div id="copyright" style="margin-top: <?php echo $footermargin ?>">
-Copyright © 2005 - 2017 ChineseLawyersNetwork.com<br> 
-All Rights Reserved
+Copyright &copy; 2005 - 2017 ChineseLawyersNetwork.com<br>All Rights Reserved
 </div>
  <?php 
 $footermargin = "20px";
