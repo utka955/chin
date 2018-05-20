@@ -7,7 +7,7 @@ $language=mysqli_real_escape_string($db,$_REQUEST['language']);
 $statesh=mysqli_real_escape_string($db,$_REQUEST['state']);
 $state=mysqli_real_escape_string($db,$_REQUEST['state']);
 $searchparm = "t" . $parm;
- //print_r($parm); print_r($language); print_r($statesh); print_r($state); print_r($searchparm);
+ 
 $result1 = mysqli_query($db,"SELECT * FROM  practicetab
     where pshortname = \"$parm\"
     order by pseq") or die("cant read practice table" . mysqli_error($db));
@@ -118,7 +118,7 @@ $result = mysqli_query($db,"SELECT * FROM  citiestab
 	ON citiestab.clistingno = listingstab.tlistingno 
     where (cstate = \"$statesh\" or ccountry = \"$statesh\")
     and $searchparm = \"Y\"
-    order by ccity ") or die("cant read it" . mysql_error());
+    order by ccity ") or die("cant read it" . mysqli_error($db));
 
 
 $prevcity = "";
