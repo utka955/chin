@@ -33,7 +33,5 @@ initialize();
  
 
  
-  
-<body>
 </body>
 </html>
