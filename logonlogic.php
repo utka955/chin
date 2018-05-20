@@ -16,7 +16,6 @@ define("USER2", "gary");
 define("PASS2", "gary456"); 
 
 include("chinesedbconnect.html");  
-
 $auth = "";
   
 
@@ -33,7 +32,6 @@ $auth = "";
                 if($userid == USER1 && $password == PASS1) 
                     { 
                         // Successful login ------------------ 
-                       
                         // Setting Session 
                         $_SESSION['user'] = $userid; 
                        
@@ -41,8 +39,9 @@ $auth = "";
                         $_SESSION["auth"] = $auth;
                         $_SESSION['message'] = "You are now logged on as " .  $userid; 
                         // Redirecting to the logged page. 
+                        print "<br>auth=" . $_SESSION["auth"];
                         header("Location: admin1.php"); 
-                        exit();
+                         exit();
                     } 
 
                if($userid == USER2 && $password == PASS2) 
@@ -56,8 +55,8 @@ $auth = "";
                         $_SESSION["auth"] = $auth;
                         $_SESSION['message'] = "You are now logged on as " .  $userid; 
                         // Redirecting to the logged page. 
-                     header("Location: admin1.php"); 
-                        exit();
+                   header("Location: admin1.php"); 
+                      exit();
                     } 
 
 

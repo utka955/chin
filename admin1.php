@@ -1,6 +1,7 @@
 <?php
 session_start();
 $level = "all";
+$adminpage = "y";
 ?>
 
 <html>
@@ -40,7 +41,7 @@ document.form1.city.value = ""
 
 <p style="padding-left: 30px; color: black">
 <?php
-echo "Authorization level=" . $auth . "<br>";
+echo "Authorization level=" . $_SESSION["auth"] . "<br>";
 print $message;
  
 

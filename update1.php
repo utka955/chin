@@ -57,7 +57,7 @@ if ($province != "select state")
     }
 }
  
-mysqli_new_query("update listingstab 
+mysqli_query($db,"update listingstab 
 SET 
 taddress = \"$Address\",
 taddress2 = \"$Address2\",

@@ -243,8 +243,8 @@ echo "<br><br>";
 		  echo "</td></tr>";
 		  echo "<tr height=5px><td colspan=3></td></tr>";
 		  echo "<tr><td colspan=3>";
-		  echo  "<b>BIO: </b>" . $Bio;
-		    echo  "<Br><Br><b>Chinese BIO: </b>" . $Chinesebio;
+		  echo  "<b>BIO: </b>" . utf8_encode($Bio);
+		    echo  "<Br><Br><b>Chinese BIO: </b>" . utf8_encode($Chinesebio);
 		  echo "</td></tr>";
 
 echo "<tr height=15px><td colspan=3></td></tr>";
