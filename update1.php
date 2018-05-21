@@ -38,6 +38,8 @@ $Cell=mysqli_real_escape_string($db,$_REQUEST['Cell']);
 $Fax=mysqli_real_escape_string($db,$_REQUEST['Fax']);
 $Website=mysqli_real_escape_string($db,$_REQUEST['Website']);
 $Company=$_REQUEST['Company']; 
+
+$Listingno = $_GET["Listingno"];
 If ($Stateover == "")
 {
 $Stateover = $State;

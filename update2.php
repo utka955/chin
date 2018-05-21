@@ -180,7 +180,7 @@ tcontracts = \"$contracts\",
   tchinesebio = \"$Chinesebio\",
   tbio = \"$Bio\"
 
-         where tlistingno = \"$Listingno\";") or die("Update 1 failed" . mysql_error()); 
+         where tlistingno = \"$Listingno\";",$db) or die("Update 1 failed" . mysql_error()); 
 
 $realid = $Listingno;
  
@@ -188,7 +188,6 @@ $dir =  $_SERVER['DOCUMENT_ROOT'];
   
  
 $dirpath =  $dir . "/listingphotos/$realid";
- 
 
    print 
 	 "<META http-equiv=\"refresh\"content=\"0;url=selectchinese.php?Listingno=$Listingno\">";

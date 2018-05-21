@@ -3,6 +3,7 @@ session_start();
 //session_register("Bio");
  //session_register("Chinesebio");
 include("chinesedbconnect.html");  
+$Listingno =  $_REQUEST['Listingno'];
 $result = mysqli_new_query("SELECT * FROM  listingstab
 where tlistingno = \"$Listingno\"
 order by tcreatedate DESC",$db) or die("cant read it");
