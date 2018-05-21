@@ -76,9 +76,9 @@ print "<meta name=\"description\" content=\"" . $statesh . " Chinese " .  $Title
 <meta name="viewport" content="width=device-width">
 
 
-<link href="http://www.ChineseLawyersNetwork.com/commonchin.css" type="text/css" rel="stylesheet"> 
-<link href="http://www.ChineseLawyersNetwork.com/chinres.css" type="text/css" rel="stylesheet">
-<!--<link href="http://www.ChineseLawyersNetwork.com/footer1.css" type="text/css" rel="stylesheet"> -->
+<link href="https://www.ChineseLawyersNetwork.com/commonchin.css" type="text/css" rel="stylesheet"> 
+<link href="https://www.ChineseLawyersNetwork.com/chinres.css" type="text/css" rel="stylesheet">
+<!--<link href="https://www.ChineseLawyersNetwork.com/footer1.css" type="text/css" rel="stylesheet"> -->
  
 
 
@@ -93,7 +93,7 @@ print "<meta name=\"description\" content=\"" . $statesh . " Chinese " .  $Title
 <?php 
 //$footermargin = "20px";
 include $_SERVER['DOCUMENT_ROOT']."/topchinres.html";  ?>
-<div id="mainphoto"><img src="http://www.ChineseLawyersNetwork.com/images/chineseheader.jpg" style="width: 100%"></div>
+<div id="mainphoto"><img src="https://www.ChineseLawyersNetwork.com/images/chineseheader.jpg" style="width: 100%"></div>
  
  
 <H2 style="text-align: center; letter-spacing: 0">
@@ -135,7 +135,7 @@ $number = mysqli_num_rows($result);
 if ($number == 0)
     {
         echo "</div><div><Br>We do not list any Chinese lawyers in this state.  <Br>
-       <font color=black>To add your legal services to this page click <a href=\"http://www.ChineseLawyersNetwork.com/join.htm\"><font color=#152560>Lawyers Join</a></div>";
+       <font color=black>To add your legal services to this page click <a href=\"https://www.ChineseLawyersNetwork.com/join.htm\"><font color=#152560>Lawyers Join</a></div>";
     }
  while ($MyIndex < $number)
       
@@ -149,7 +149,7 @@ if ($number == 0)
  
 if ($City != $prevcity)
     {
-       echo "<a href=\"http://www.ChineseLawyersNetwork.com/listingsx.php?searchparm=$searchparm&City=$City&statesh=$statesh&language=$language\">" . $City;
+       echo "<a href=\"https://www.ChineseLawyersNetwork.com/listingsx.php?searchparm=$searchparm&City=$City&statesh=$statesh&language=$language\">" . $City;
        $prevcity = $City;
        echo "</a>";
     }
@@ -159,7 +159,7 @@ if ($City != $prevcity)
 }
 if ($number > 0)
     {
-       echo "</div><Br><Br>To add your legal services to this page in up to 16 cities click <a href=\"http://www.ChineseLawyersNetwork.com/join.htm\"><font color=#152560><b>Lawyers Join</b></font></a>";
+       echo "</div><Br><Br>To add your legal services to this page in up to 16 cities click <a href=\"https://www.ChineseLawyersNetwork.com/join.htm\"><font color=#152560><b>Lawyers Join</b></font></a>";
     }
 ?>
 </div></div>    
