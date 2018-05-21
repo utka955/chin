@@ -252,14 +252,14 @@ if ($final_filename != "")
     {
        mysqli_new_query("update  listingstab SET 
            tphoto=\"$final_filename\" 
-           where tlistingno=\"$Listingno\";") or die("Update 1 failed" . mysql_error());   
+           where tlistingno=\"$Listingno\";",$db) or die("Update 1 failed" . mysql_error());   
     }	 
     else
         if ($whatphoto == "logo")
         {
            mysqli_new_query("update  listingstab SET 
                tlogo=\"$final_filename\" 
-               where tlistingno=\"$Listingno\";") or die("Update 2 failed" . mysql_error());   
+               where tlistingno=\"$Listingno\";",$db) or die("Update 2 failed" . mysql_error());   
         }
        
 } 

@@ -13,7 +13,7 @@ $passwordwas = $password;
 $status = "H";
  
  mysqli_new_query("delete from listingstab 
-    where tlistingno = \"$listingno\";") or die("Update 1 failed"); 
+    where tlistingno = \"$listingno\";",$db) or die("Update 1 failed"); 
         print 
 	     "<META http-equiv=\"refresh\" content=\"0;url=selectchinese.php?
         printmess=$printmess,
