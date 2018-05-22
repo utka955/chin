@@ -93,14 +93,14 @@ $result = mysqli_new_query("SELECT * FROM countertab",$db);
 	$Itemcount = (mysql_result($result,$MyIndex,"itemcount"));
         $Itemcount++;
  
-      mysqli_new_query("update countertab SET itemcount=\"$Itemcount\" ;") or die("counter update failed");
+      mysqli_new_query("update countertab SET itemcount=\"$Itemcount\" ;",$db) or die("counter update failed");
 $Listingno = "L" . $Itemcount;
 $Paystatus = "N";
 
  
 		
  mysqli_new_query("insert into listingstab (`tid`,`tlistingno`, `tauthcode`, `tcreatedate`, `tlastupdate`) VALUES
-('$useridx', '$Listingno',  '$authcode',        Current_Timestamp,Current_Timestamp);")
+('$useridx', '$Listingno',  '$authcode',        Current_Timestamp,Current_Timestamp);",$db)
 or die("cant insert listing " . mysql_error()); 
 
 
