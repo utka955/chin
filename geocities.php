@@ -26,14 +26,14 @@ border=0>
     ?>
       <P><?php
 session_start();
-$_SESSION["auth"] = $auth;
+//$_SESSION["auth"] = $auth;
    include("chinesedbconnect.html");   
  include("checklogon.php");   
 ?>
       <P>after second one</P>
      
 <?php
- mysqli_new_query("drop table citiestab");
+ mysqli_new_query("drop table citiestab",$db);
 
 
 
@@ -43,7 +43,7 @@ $_SESSION["auth"] = $auth;
 mysqli_new_query("create table citiestab( cstate varchar(50), ccity varchar(50), ccompany varchar(150), clistingno varchar(5),
  clink varchar(150), cfname varchar(50), clname varchar(50), ccountry varchar(50), cmain varchar(1),
 
-UNIQUE id(cstate, ccity, clistingno) );") 
+UNIQUE id(cstate, ccity, clistingno) );",$db) 
 or die("cant createx" . mysql_error());
 
 $MyIndex = 0;
@@ -123,94 +123,94 @@ $result = mysqli_new_query("SELECT * FROM  listingstab order by tcreatedate DESC
 	  $State = "Texas";
 	  }
 $Main = "M";
-	  doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main); 
+	  doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db); 
 $Main = "";
  if ($City1 > " ")
  {
  $City = $City1;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City2 > " ")
  {
  $City = $City2;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City3 > " ")
  {
  $City = $City3;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City4 > " ")
  {
  $City = $City4;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City5 > " ")
  {
  $City = $City5;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City6 > " ")
  {
  $City = $City6;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City7 > " ")
  {
  $City = $City7;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City8 > " ")
  {
  $City = $City8;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City9 > " ")
  {
  $City = $City9;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City10 > " ")
  {
  $City = $City10;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City11 > " ")
  {
  $City = $City11;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City12 > " ")
  {
  $City = $City12;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City13 > " ")
  {
  $City = $City13;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City14 > " ")
  {
  $City = $City14;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
  if ($City15 > " ")
  {
  $City = $City15;
- doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main);
+ doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db);
  }
 
 	  
 $MyIndex++;
 }
-function doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main)
+function doit($State,$City,$Company,$Listingno,$Fname,$Lname,$Country,$Main,$db)
 {
   
 	     $link = "test";
 //	print "<Br>Country=". $Country . " State=" . $State . " city=" . $City  . " last=" . $Lname;   
 	     mysqli_new_query("insert into citiestab values 
-      ('$State',\"$City\",\"$Company\",'$Listingno','$link','$Fname','$Lname','$Country','$Main');") 
+      ('$State',\"$City\",\"$Company\",'$Listingno','$link','$Fname','$Lname','$Country','$Main');",$db) 
     ;   
 }
 
