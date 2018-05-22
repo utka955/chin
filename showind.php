@@ -1,6 +1,7 @@
  <?php 
  $thecity = "";
   $friendly = "";
+  $language = $_GET['language']; 
  include("showtopchinres.php");  ?>
  <body> 
 <script>

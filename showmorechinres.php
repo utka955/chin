@@ -1,6 +1,11 @@
 <?php
 include("traditional.html"); 
 include("simplified.html"); 
+$language = $_GET['language']; 
+if ($language == "")
+{
+$language = "english";
+}
 
 
  echo "<div style=\"max-width: 800px; margin-left: auto; margin-right: auto; text-align: left\">";
@@ -238,11 +243,11 @@ if ($Country != "select country")
             echo "</div></td></tr></table><div id=\"list4\">";
 if ($language != "english")
 {
-echo $Chinesebio;
+echo utf8_encode($Chinesebio);
 }
 else
 {
-echo $Bio;
+echo utf8_encode($Bio);
 }
            
 	     
