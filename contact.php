@@ -1,7 +1,10 @@
 <?PHP
 session_start();
  include("chinesedbconnect.html");
-
+$First=$_REQUEST['First']; 
+$Last=$_REQUEST['Last']; 
+$part1=$_REQUEST['part1']; 
+$part2=$_REQUEST['part2']; 
 $to = "ChineseLawyersNetwork.COM";
 ?>
 
