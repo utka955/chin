@@ -1,9 +1,10 @@
 <?php
 session_start();
-
+include("chinesedbconnect.html"); 
 $filepath = $_SERVER["PHP_SELF"];
 $pagename = basename($filepath);  
 list($state,$rest)= preg_split('-.htm-',$pagename);  
+$language=mysqli_real_escape_string($db,$_REQUEST['languagec']);
 
 $_SESSION["state"] = $state;
 if ($languagec != "")
@@ -14,11 +15,9 @@ else
 {
 $_SESSION["language"] = "english";
 }
-
- 
 include("chinesestate.php");
 include("chinesecountry.php");
-include("chinesedbconnect.html"); 
+
  
 ?>
  
