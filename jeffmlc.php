@@ -1,8 +1,6 @@
 <?php
 // IMPORTANT NOTE: DO NOT change anything that has a $ before it
 session_start();
-
-  
 //Make sure that the input come from a posted form. Otherwise quit immediately
 if ($_SERVER["REQUEST_METHOD"] <> "POST") 
  die("You can only reach this page by posting from the html form");
@@ -19,21 +17,22 @@ exit();
 
  include("chinesedbconnect.html");
 
-$signerx_email1 = $HTTP_POST_VARS['signerx_email'];
-$txtName = $HTTP_POST_VARS['txtName'];
-$part1 = $HTTP_POST_VARS['part1'];
-$part2 = $HTTP_POST_VARS['part2'];
-$First = $HTTP_POST_VARS['First'];
-$Last = $HTTP_POST_VARS['Last'];
-$tel = $HTTP_POST_VARS['tel'];
-$best = $HTTP_POST_VARS['best'];
-$message = $HTTP_POST_VARS['message'];
+$signerx_email1 = $_POST['signerx_email'];
+$signerx_email = $_POST['signerx_email'];
+$txtName = $_POST['txtName'];
+$part1 = $_POST['part1'];
+$part2 = $_POST['part2'];
+$First = $_POST['First'];
+$Last = $_POST['Last'];
+$tel = $_POST['tel'];
+$best = $_POST['best'];
+$message = $_POST['message'];
 
 $h1 = "CHINESELAWYERSNETWORK.COM inquiry";
 
-$recx = "gary@chineselawyersnetwork.com";
-//$recx = "gary.berger1234@yahoo.com";
-$recy = "pcordes_98@yahoo.com";
+//$recx = "gary@chineselawyersnetwork.com";
+$recx = "agarwal.utkarsh9@gmail.com";
+//$recy = "pcordes_98@yahoo.com";
 
 
 if ($part1 != "")
@@ -42,7 +41,6 @@ $recx = $part1 . "@" . $part2; // who do you want to send this email to
 }
 $subject = $h1; // this is the subject line of the email
 $testit = substr($message,0,10);
-
 if ($signerx_email == "")
 {
 echo "Your email is Invalid";
