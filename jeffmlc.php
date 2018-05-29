@@ -30,9 +30,9 @@ $message = $_POST['message'];
 
 $h1 = "CHINESELAWYERSNETWORK.COM inquiry";
 
+$recx = "gary@chineselawyersnetwork.com";
 //$recx = "gary@chineselawyersnetwork.com";
-$recx = "agarwal.utkarsh9@gmail.com";
-//$recy = "pcordes_98@yahoo.com";
+$recy = "pcordes_98@yahoo.com";
 
 
 if ($part1 != "")
