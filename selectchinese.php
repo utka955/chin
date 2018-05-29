@@ -238,13 +238,11 @@ echo "<br><br>";
 		  echo "<Br>Website: " .  "<a href=$Website target=_blank>" . $Website . "</a>";
  
 //echo "</p style=\"letter-spacing: 1px\"><a href=\"showind.php?thelisting=$Listingno\" target=_blank><B>MORE INFO</b></a>";
-
-
 		  echo "</td></tr>";
 		  echo "<tr height=5px><td colspan=3></td></tr>";
 		  echo "<tr><td colspan=3>";
 		  echo  "<b>BIO: </b>" . utf8_encode($Bio);
-		    echo  "<Br><Br><b>Chinese BIO: </b>" . utf8_encode($Chinesebio);
+		    echo  "<Br><Br><b>Chinese BIO: </b>" . $Chinesebio;
 		  echo "</td></tr>";
 
 echo "<tr height=15px><td colspan=3></td></tr>";
