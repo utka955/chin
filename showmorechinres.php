@@ -15,7 +15,18 @@ $language = "english";
 $litpractice = "Practice Areas";
 $litcities = "Cities Served";
 $litinfo = "MORE INFORMATION";
- 
+if ($language == "simplified")
+{
+$litpractice = "实践领域";
+$litcities = "城市服务";
+$litinfo = "更多信息";
+}
+if ($language == "traditional")
+{
+$litpractice = "實踐領域";
+$litcities = "城市服務";
+$litinfo = "更多信息";
+}
 if ($Cityz == "")
 {
 $Cityz = $Passcity;

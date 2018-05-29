@@ -10,6 +10,7 @@ $searchparm = $_GET['searchparm'];
 //added these
 $City = $_GET['City']; 
 $statesh = $_GET['statesh']; 
+$language = $_GET['language'];
 //end add
 $Cityx       = "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
 if ($City != "")
@@ -52,7 +53,18 @@ $_SESSION["Titledesc"] = $Titledesc;
 $litpractice = "Practice Areas";
 $litcities = "Cities Served";
 $litinfo = "MORE INFORMATION";
- 
+if ($language == "simplified")
+{
+$litpractice = "实践领域";
+$litcities = "城市服务";
+$litinfo = "更多信息";
+}
+if ($language == "traditional")
+{
+$litpractice = "實踐領域";
+$litcities = "城市服務";
+$litinfo = "更多信息";
+}
 include("traditional.html"); 
 include("simplified.html"); 
 ?>
