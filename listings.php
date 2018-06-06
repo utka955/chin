@@ -432,12 +432,12 @@ $MyIndex1++;
                         if (file_exists($filename)) 
                             {
  
-                            echo "<p style=style=\"margin-top: 0px\"  class=red><a href=\"$filename?thelisting=$Listingno&Passcity=$Passcity&language=$language\" style=\"font-size: 14px; color: red\"><B>In CHinese</b></a>";
+                            echo "<p style=style=\"margin-top: 0px\"  class=red><a href=\"$filename?thelisting=$Listingno&Passcity=$Passcity&language=simplified\" style=\"font-size: 14px; color: red\"><B>In Chinese</b></a>";
                             }
                         else
                             {
  
-                            echo "<p style=style=\"margin-top: 0px\"  class=red><a href=\"showindsp.php?thelisting=$Listingno&Passcity=$Passcity&language=$language\" style=\"font-size: 14px; color: red\">
+                            echo "<p style=style=\"margin-top: 0px\"  class=red><a href=\"showindsp.php?thelisting=$Listingno&Passcity=$Passcity&language=simplified\" style=\"font-size: 14px; color: red\">
 <B>In Chinese</b></a>";
                             }
                       }
