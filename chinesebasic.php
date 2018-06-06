@@ -73,7 +73,7 @@ print "<meta name=\"description\" content=\"" . $statesh . " Chinese " .  $Title
 <meta http-equiv="Content-Language" content="EN">
 <meta name="revisit-after" content="30 days">
 <meta name="robots" content="FOLLOW,INDEX">
-<link href="http://www.chineselawyersnetwork.com/css/chinese.css" type="text/css" rel="stylesheet">
+<link href="https://www.chineselawyersnetwork.com/css/chinese.css" type="text/css" rel="stylesheet">
 
 </head>
 <?php include("chinesetop.html");  ?>
@@ -111,7 +111,7 @@ $number = mysqli_num_rows($result);
 if ($number == 0)
     {
         echo "<tr><td class=textmsg><Br>We do not list any chinese lawyers in this state.  <Br>
-       <font color=black>To add your legal services to this page click <a href=\"http://www.chineselawyersnetwork.com/join.htm\"><font color=black>Lawyers Join</font></font></td></tr></a>";
+       <font color=black>To add your legal services to this page click <a href=\"https://www.chineselawyersnetwork.com/join.htm\"><font color=black>Lawyers Join</font></font></td></tr></a>";
     }
  while ($MyIndex < $number)
       
@@ -129,7 +129,7 @@ $statenoblank = $statesh;
 $statenoblank = str_replace(" ", "%20", $statenoblank);
 $citynoblank = $City;
 $citynoblank = str_replace(" ", "%20", $citynoblank);
-       echo "<tr><Td class=practice style=\"padding-left: 190px\"><a href=\"http://www.chineselawyersnetwork.com/listings.php?searchparm=$searchparm&City=$citynoblank&statesh=$statenoblank\">" . $City;
+       echo "<tr><Td class=practice style=\"padding-left: 190px\"><a href=\"https://www.chineselawyersnetwork.com/listings.php?searchparm=$searchparm&City=$citynoblank&statesh=$statenoblank\">" . $City;
        $prevcity = $City;
        echo "</a></td></tr>";
     }
@@ -139,7 +139,7 @@ $citynoblank = str_replace(" ", "%20", $citynoblank);
 }
 if ($number > 0)
     {
-       echo "<tr><td class=textmsg><Br><Br><Br><Br><Br><Br><Br><Br><Br>To add your legal services to this page in up to 16 cities click <a href=\"http://www.chineselawyersnetwork.com/join.htm\">Lawyers Join</font></a></td></tr>";
+       echo "<tr><td class=textmsg><Br><Br><Br><Br><Br><Br><Br><Br><Br>To add your legal services to this page in up to 16 cities click <a href=\"https://www.chineselawyersnetwork.com/join.htm\">Lawyers Join</font></a></td></tr>";
     }
 ?>
   
