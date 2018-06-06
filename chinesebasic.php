@@ -7,7 +7,7 @@ $state=mysqli_real_escape_string($db,$_REQUEST['state']);
 $searchparm = "t" . $parm;
  
 
-session_register("language");
+$_SESSION["language"] = $language;
 $result1 = mysqli_new_query("SELECT * FROM  practicetab
     where pshortname = \"$parm\"
     order by pseq",$db) or die("cant read practice table" . mysql_error());
